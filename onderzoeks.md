@@ -4,7 +4,7 @@
 |---|---|
 | auteur | Hugo Janse |
 | Datum | 01-09-2026 |
-| Versie | 0.12 |
+| Versie | 0.13 |
 | clasievicatie | Intern |
 | client | Leonard Heuker of hoek |
 | Bedrijf | TMD Locks |
@@ -41,17 +41,19 @@ Op basis van de onderzoeksresultaten wordt een nieuw Power BI-dashboard ontwikke
 
 Table of Contents
 
-## Table of Contents
+## Inhoudsopgave
+
 - [Voorwoord](#voorwoord)
-- [samenvatting](#samenvatting)
-- [Introductie ](#introductie )
-- [1. Normal Traffic Lights](#1-normal-traffic-lights)
-- [2. Smart Traffic Lights](#2-smart-traffic-lights)
-- [3. Sensors in Smart Traffic Lights](#3-sensors-in-smart-traffic-lights)
-- [Sensors](#sensors)
-- [Result](#result)
-- [Recommendation](#recommendation)
-- [Conclusion](#conclusion)
+- [Samenvatting](#samenvatting)
+- [1. Introductie](#1-introductie)
+  - [1.1 Aanleiding](#11-aanleiding)
+  - [1.2 Probleemstelling](#12-probleemstelling)
+  - [1.3 Doelstelling](#13-doelstelling)
+  - [1.4 Betrokken partijen](#14-betrokken-partijen)
+- [2. Onderzoeksvragen](#2-onderzoeksvragen)
+  - [2.1 Hoofdonderzoeksvraag](#21-hoofdonderzoeksvraag)
+- [Bronnen](#bronnen)
+- [Versiebeheer](#versiebeheer)
 
 ---
 
@@ -80,6 +82,17 @@ Op basis van deze informatie wordt een Power BI-dashboard ontwikkeld waarin de r
 
 Daarnaast richt het onderzoek zich op de betrouwbaarheid van de weergegeven cijfers. Hiervoor wordt gecontroleerd of de KPI's binnen Power BI correct worden berekend en overeenkomen met de gegevens uit Exact Online. Hiermee wordt beoogd het risico op fouten door handmatige berekeningen te verminderen en medewerkers te voorzien van betrouwbare informatie.
 
+## betrokken partijen 
+Bij de ontwikkeling van het Power BI-dashboard zijn verschillende afdelingen en belanghebbenden betrokken. Iedere afdeling heeft eigen informatiebehoeften die tijdens het onderzoek in kaart worden gebracht. In onderstaande tabel worden de betrokken partijen en hun belangrijkste belangen weergegeven.
+
+| Betrokken partij | Belang |
+|---|---|
+| **Management** | Overzicht van bedrijfsprestaties en onderbouwing van beslissingen. |
+| **Verkoopafdeling** | Inzicht in verkoopcijfers, dealerprestaties, dealervoorraad en demosloten. |
+| **Marketingafdeling** | Inzicht in verkoopontwikkelingen en productprestaties. |
+| **Inkoop** | Verkoop- en voorraadgegevens als basis voor bestellingen. |
+| **Overige medewerkers** | Snel relevante bedrijfsinformatie kunnen vinden. |
+| **Investeerders** | Inzicht in belangrijke financiële resultaten, zoals omzet en winst, die op een duidelijke en professionele manier worden gepresenteerd. |
 
 ## 2. Onderzoeksvragen
 
@@ -99,3 +112,4 @@ Damen, R. (2026, 30 april). Hoe werkt Exact Online? Kosten, modules & tips (2026
 |0.1 |29-10-2026|opzet gemaakt|
 |0.11|30-10-2026| -voorwoord -samenvatting|
 |0.12|03-11-2026| -inleiding|
+|0.13|03-11-2026| -betrokkenpartijen|
