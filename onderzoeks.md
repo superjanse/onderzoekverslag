@@ -104,6 +104,25 @@ In onderstaande tabel worden de betrokken partijen, hun belangen en hun betrokke
 | **Inkoop en logistiek** | Inzicht in actuele voorraadniveaus, beschikbare sloten en verwachte leveringen. | De hoofdverantwoordelijken worden geïnterviewd over de benodigde voorraad- en leveringsinformatie. |
 | **Investeerders** | Inzicht in omzet, winst, verkoopprestaties en de voortgang ten opzichte van forecasts. | Indirect betrokken. Ontvangen relevante bedrijfsresultaten via presentaties of screenshots, zonder dagelijkse toegang tot het dashboard. |
 
+## 3. Begrippenlijst
+
+| Begrip | Betekenis |
+|---|---|
+| **Power BI** | Een programma van Microsoft waarmee gegevens worden geanalyseerd en weergegeven in interactieve dashboards en rapportages. |
+| **Exact Online** | Een online bedrijfssoftwarepakket waarin onder andere verkoop-, financiële en voorraadgegevens worden bijgehouden. |
+| **Dashboard** | Een visueel overzicht van belangrijke bedrijfsinformatie en KPI's. |
+| **KPI** | Key Performance Indicator: een meetbare indicator waarmee de prestaties van een organisatie worden beoordeeld. |
+| **Datakwaliteit** | De mate waarin gegevens juist, volledig, actueel en betrouwbaar zijn. |
+| **Informatiebehoefte** | De informatie die een medewerker of afdeling nodig heeft om werkzaamheden uit te voeren en beslissingen te nemen. |
+| **Gebruiksvriendelijkheid** | De mate waarin gebruikers een systeem eenvoudig en efficiënt kunnen gebruiken. |
+| **Datavisualisatie** | Het weergeven van gegevens met grafieken, tabellen en diagrammen om informatie begrijpelijk te maken. |
+| **Dealerprestaties** | De resultaten van dealers, bijvoorbeeld het aantal verkochte sloten en de beschikbare dealervoorraad. |
+| **Connector** | Een technische koppeling waarmee gegevens vanuit Exact Online naar Power BI worden overgebracht. |
+| **B2B (Business-to-Business)** | Verkoop van producten of diensten aan andere bedrijven, zoals dealers en winkels. |
+| **B2C (Business-to-Consumer)** | Verkoop van producten of diensten aan consumenten, bijvoorbeeld via webshops. |
+| **Forecast** | Een prognose van toekomstige bedrijfsresultaten, bijvoorbeeld de verwachte omzet of verkoopcijfers. |
+
+
 
 ## 2. Onderzoeksvragen
 
