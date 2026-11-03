@@ -49,9 +49,9 @@ Table of Contents
   - [1.1 Aanleiding](#11-aanleiding)
   - [1.2 Probleemstelling](#12-probleemstelling)
   - [1.3 Doelstelling](#13-doelstelling)
-  - [1.4 Betrokken partijen](#14-betrokken-partijen)
-- [2. Onderzoeksvragen](#2-onderzoeksvragen)
-  - [2.1 Hoofdonderzoeksvraag](#21-hoofdonderzoeksvraag)
+  - [2. Betrokken partijen](#14-betrokken-partijen)
+- [3. Onderzoeksvragen](#2-onderzoeksvragen)
+  - [3.1 Hoofdonderzoeksvraag](#21-hoofdonderzoeksvraag)
 - [Bronnen](#bronnen)
 - [Versiebeheer](#versiebeheer)
 
@@ -82,7 +82,7 @@ Op basis van deze informatie wordt een Power BI-dashboard ontwikkeld waarin de r
 
 Daarnaast richt het onderzoek zich op de betrouwbaarheid van de weergegeven cijfers. Hiervoor wordt gecontroleerd of de KPI's binnen Power BI correct worden berekend en overeenkomen met de gegevens uit Exact Online. Hiermee wordt beoogd het risico op fouten door handmatige berekeningen te verminderen en medewerkers te voorzien van betrouwbare informatie.
 
-## betrokken partijen 
+## 2. betrokken partijen 
 Bij de ontwikkeling van het Power BI-dashboard zijn verschillende afdelingen en belanghebbenden betrokken. Iedere afdeling heeft eigen informatiebehoeften die tijdens het onderzoek in kaart worden gebracht. In onderstaande tabel worden de betrokken partijen en hun belangrijkste belangen weergegeven.
 
 | Betrokken partij | Belang |
