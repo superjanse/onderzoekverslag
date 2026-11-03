@@ -4,7 +4,7 @@
 |---|---|
 | auteur | Hugo Janse |
 | Datum | 01-09-2026 |
-| Versie | 0.4 |
+| Versie | 0.13 |
 | clasievicatie | Intern |
 | client | Leonard Heuker of hoek |
 | Bedrijf | TMD Locks |
@@ -41,17 +41,19 @@ Op basis van de onderzoeksresultaten wordt een nieuw Power BI-dashboard ontwikke
 
 Table of Contents
 
-## Table of Contents
+## Inhoudsopgave
+
 - [Voorwoord](#voorwoord)
-- [samenvatting](#samenvatting)
-- [Introductie ](#introductie )
-- [1. Normal Traffic Lights](#1-normal-traffic-lights)
-- [2. Smart Traffic Lights](#2-smart-traffic-lights)
-- [3. Sensors in Smart Traffic Lights](#3-sensors-in-smart-traffic-lights)
-- [Sensors](#sensors)
-- [Result](#result)
-- [Recommendation](#recommendation)
-- [Conclusion](#conclusion)
+- [Samenvatting](#samenvatting)
+- [1. Introductie](#1-introductie)
+  - [1.1 Aanleiding](#11-aanleiding)
+  - [1.2 Probleemstelling](#12-probleemstelling)
+  - [1.3 Doelstelling](#13-doelstelling)
+- [2. Betrokken partijen](#14-betrokken-partijen)
+- [3. Onderzoeksvragen](#2-onderzoeksvragen)
+  - [3.1 Hoofdonderzoeksvraag](#21-hoofdonderzoeksvraag)
+- [Bronnen](#bronnen)
+- [Versiebeheer](#versiebeheer)
 
 ---
 
@@ -64,15 +66,19 @@ De organisatie heeft behoefte aan een centrale en overzichtelijke manier om deze
 
 ### 1.2 Probleemstelling
 
-Binnen TMD Locks kost het medewerkers veel tijd om de juiste bedrijfsinformatie te vinden. Bij het gebruik van Exact Online moeten medewerkers regelmatig zoeken, door uitgebreide tabellen scrollen en verschillende filters toepassen om de gewenste gegevens te verkrijgen. Dit maakt het opzoeken en analyseren van bedrijfsinformatie tijdrovend en inefficiënt.
+Tijdens de eerste gesprekken met de opdrachtgever, zijn verschillende problemen rondom het verzamelen, analyseren en presenteren van bedrijfsgegevens binnen TMD Locks naar voren gekomen.
 
-Daarnaast is uit gesprekken met de opdrachtgever gebleken dat een deel van de bedrijfsgegevens handmatig wordt berekend buiten Exact Online om. Hierdoor bestaat het risico op menselijke fouten, waardoor niet altijd zeker is of de berekende cijfers een correct beeld geven van de bedrijfsprestaties.
+Momenteel kost het medewerkers extra tijd om de juiste informatie in Exact Online te vinden. Zij moeten regelmatig door uitgebreide tabellen zoeken en verschillende filters toepassen. Dit geldt onder andere voor verkoopcijfers, het aantal verkochte sloten per dealer, dealervoorraad en verkoopontwikkelingen.
 
-Ook bij het presenteren van bedrijfsresultaten aan bijvoorbeeld potentiële investeerders levert dit problemen op. Het verzamelen van de juiste informatie kost tijd en uitgebreide tabellen uit Exact Online bieden onvoldoende overzicht om belangrijke resultaten op een duidelijke en professionele manier te presenteren.
+Daarnaast heeft de organisatie behoefte aan KPI's die worden berekend op basis van bestaande bedrijfsgegevens. Deze berekeningen zijn niet direct beschikbaar in Exact Online en worden daarom uitgevoerd op het moment dat de informatie nodig is, soms met behulp van Excel. Dit kost extra tijd en brengt bij handmatige berekeningen het risico op menselijke fouten met zich mee.
 
-Het centrale probleem is dat bedrijfsinformatie niet snel en overzichtelijk genoeg beschikbaar is en dat handmatige berekeningen risico's voor de betrouwbaarheid met zich meebrengen. Dit leidt tot onnodig tijdverlies en bemoeilijkt het analyseren en presenteren van bedrijfsresultaten.
+Ook voor inkoop en logistiek is overzichtelijke bedrijfsinformatie belangrijk. Binnen TMD Locks is het voorgekomen dat sloten niet tijdig geleverd konden worden doordat deze niet op voorraad waren. Goed inzicht in de beschikbare voorraad en verwachte leveringen is daarom belangrijk om de voorraadplanning te ondersteunen.
 
-###### 1.3 Doelstelling
+Verder is het momenteel lastig om bedrijfsresultaten op een duidelijke en professionele manier aan potentiële investeerders te presenteren. TMD Locks wil inzicht kunnen geven in omzet, winst, verkoopprestaties en de voortgang ten opzichte van de opgestelde forecasts.
+
+Het centrale probleem is dat belangrijke bedrijfsinformatie binnen TMD Locks niet direct overzichtelijk beschikbaar is en aanvullende KPI's afzonderlijk moeten worden berekend. Hierdoor kost het verzamelen, analyseren en presenteren van informatie extra tijd en is het lastig om snel inzicht te krijgen in de bedrijfsprestaties
+
+### 1.3 Doelstelling
 
 Het doel van dit onderzoek is om inzicht te krijgen in de informatiebehoeften van de verschillende afdelingen binnen TMD Locks. Door middel van gesprekken en interviews met medewerkers wordt onderzocht welke Key Performance Indicators (KPI's) voor iedere afdeling het belangrijkst zijn.
 
@@ -80,6 +86,17 @@ Op basis van deze informatie wordt een Power BI-dashboard ontwikkeld waarin de r
 
 Daarnaast richt het onderzoek zich op de betrouwbaarheid van de weergegeven cijfers. Hiervoor wordt gecontroleerd of de KPI's binnen Power BI correct worden berekend en overeenkomen met de gegevens uit Exact Online. Hiermee wordt beoogd het risico op fouten door handmatige berekeningen te verminderen en medewerkers te voorzien van betrouwbare informatie.
 
+## 2. betrokken partijen 
+Bij de ontwikkeling van het Power BI-dashboard zijn verschillende afdelingen en belanghebbenden betrokken. Iedere afdeling heeft eigen informatiebehoeften die tijdens het onderzoek in kaart worden gebracht. In onderstaande tabel worden de betrokken partijen en hun belangrijkste belangen weergegeven.
+
+| Betrokken partij | Belang |
+|---|---|
+| **Management** | Overzicht van bedrijfsprestaties en onderbouwing van beslissingen. |
+| **Verkoopafdeling** | Inzicht in verkoopcijfers, dealerprestaties, dealervoorraad en demosloten. |
+| **Marketingafdeling** | Inzicht in verkoopontwikkelingen en productprestaties. |
+| **Inkoop** | Verkoop- en voorraadgegevens als basis voor bestellingen. |
+| **Overige medewerkers** | Snel relevante bedrijfsinformatie kunnen vinden. |
+| **Investeerders** | Inzicht in belangrijke financiële resultaten, zoals omzet en winst, die op een duidelijke en professionele manier worden gepresenteerd. |
 
 ## 2. Onderzoeksvragen
 
@@ -87,180 +104,6 @@ Daarnaast richt het onderzoek zich op de betrouwbaarheid van de weergegeven cijf
 Hoofdonderzoeksvraag
 
 Hoe kan TMD Locks een Power BI-dashboard ontwikkelen dat aansluit bij de informatiebehoeften en relevante KPI's van de verschillende afdelingen, en deze overzichtelijk, betrouwbaar en gebruiksvriendelijk presenteert?
-
-
-## Introduction
-
-Why do we need smarter traffic lights? Traffic jams are a real problem in cities. They are not only annoying and stressful for people, but they also increase air pollution. Poorly timed traffic lights can also create dangerous situations. Traditional traffic lights follow a fixed schedule and struggle to adapt to real-time conditions.
-
-A smart traffic light uses real-time data and makes decisions based on what its environment demands. Traditional lights work on fixed schedules, which can cause traffic jams or waste green-light time when no one is waiting. In contrast, smart traffic lights adapt to traffic demands. For example, if a long queue is detected, the system can extend the green light. If a pedestrian is detected, it can activate a safe crossing phase.
-
----
-
-## Main Question
-
-What are smart traffic lights and what sensors do we need?
-
----
-
-## Sub-questions
-
-1. What are normal traffic lights?  
-2. What are smart traffic lights?  
-3. What sensors are used in smart traffic lights?  
-
----
-
-## 1. Normal Traffic Lights
-
-One of the most common problems in traffic is congestion. Traffic jams cause delays, stress, and increased pollution. The longer cars are waiting, the more fuel they use and the more pollution they produce.
-
-Traffic lights are a relatively simple and low-cost solution to guide traffic. A traffic light consists of three lights: red, orange (yellow), and green.  
-- Green: vehicles may proceed  
-- Orange: prepare to stop  
-- Red: stop  
-
-![crossroad](../assets/treffic/traf1.png)  
-<sup><sub>Image 1. A 4-lane intersection without movement directions.</sub></sup>
-
-At an intersection, vehicles can go left, right, or straight. These movements are grouped into phases.
-
-![crossroad+movement](../assets/treffic/traf2.png)  
-<sup><sub>Image 2. A 4-lane intersection with movement directions.</sub></sup>
-
-These movements are controlled in phases.
-
-![phases](../assets/treffic/traf3.png)  
-<sup><sub>Image 3. Ring-and-barrier diagram showing traffic phases.</sub></sup>
-
-Each phase has fixed timing for green, orange, and red lights. This fixed timing is inefficient because it cannot adapt to real-time traffic conditions.
-
----
-
-## 2. Smart Traffic Lights
-
-Now that we understand traditional traffic lights, we can look at smart traffic lights.
-
-A “smart” system can sense its environment, collect data, and respond automatically. A smart traffic light uses sensors and a microcontroller to adjust its behavior based on real-time conditions.
-
-For example:
-- Detecting vehicles waiting at an intersection  
-- Detecting pedestrians  
-- Adjusting green-light duration dynamically  
-
-Smart traffic lights improve traffic flow and safety by reacting to actual conditions instead of following a fixed schedule.
-
----
-
-## 3. Sensors in Smart Traffic Lights
-
-To make traffic lights smart, sensors are required. In this report, three types of sensors are analyzed.
-
----
-
-## Sensors
-
-### 1. Inductive Loop
-
-Inductive loops are commonly used in real traffic systems. They are wires embedded in the road that create a magnetic field. When a vehicle passes over them, the field changes, and the system detects the vehicle.
-
-**Advantages:**
-- Very reliable  
-- Widely used  
-
-**Disadvantages:**
-- Difficult to install  
-- Requires road construction  
-
----
-
-### 2. Ultrasonic Sensors
-
-Ultrasonic sensors measure distance using sound waves. They send out a signal and measure how long it takes to return.
-
-**Advantages:**
-- Low cost  
-- Easy to install  
-- Good for prototypes  
-
-**Disadvantages:**
-- Less accurate than other systems  
-- Limited range  
-
----
-
-### 3. Camera Detection
-
-Camera systems analyze video images to detect vehicles and traffic conditions.
-
-**Advantages:**
-- Advanced detection  
-- Flexible use  
-
-**Disadvantages:**
-- Expensive  
-- Sensitive to weather and lighting  
-
----
-
-## Result
-
-From this research, I learned how both traditional and smart traffic lights work. Traditional traffic lights use fixed timings, which can lead to inefficiency and unnecessary waiting.
-
-Smart traffic lights improve this by using real-time data and sensors to adapt to traffic conditions.
-
-I also explored different sensors, each with its own strengths and weaknesses. This helped me understand which sensors are suitable for my project.
-
----
-
-## Recommendation
-
-For this project, ultrasonic sensors are recommended.
-
-They are:
-- Affordable  
-- Easy to install  
-- Suitable for prototypes  
-
-Inductive loops are more reliable but difficult to implement in a prototype. Camera systems are powerful but expensive and sensitive to environmental conditions.
-
-Therefore, ultrasonic sensors provide the best balance between cost, simplicity, and functionality.
-
-
-
----
-
-## Conclusion
-
-In this report, the differences between traditional and smart traffic lights were analyzed. Traditional systems rely on fixed timings, which often leads to inefficient traffic flow, unnecessary waiting times, and increased air pollution.
-
-Smart traffic lights improve this by using sensors and real-time data to adapt to their environment. By detecting vehicles and pedestrians, they can make better decisions, resulting in safer and more efficient traffic flow.
-
-Different sensors were explored, including inductive loops, ultrasonic sensors, and camera detection. Each has its own advantages and disadvantages.
-
-It can be concluded that smart traffic lights are a more effective solution for modern cities. They improve traffic flow, reduce waiting times, and help reduce pollution. Therefore, they are an important step toward smarter and more efficient cities.
-
-👉 [My traffic light design](design.md)
-
-
-
-### Sourses 
-How Do Traffic Signals Work? (z.d.). YouTube. https://www.youtube.com/watch?v=DP62ogEZgkI
-
-Rokonuzzaman, M. (2021). Title of the article. Journal Name.
-https://www.sciencedirect.com/science/article/abs/pii/S014829632100847X
-
-Editraffic. (2023). Inductive loop detector basics.
-https://www.editraffic.com/wp-content/uploads/2023/07/Inductive-Loop-Detector-Basics.pdf
-
-
-MaxBotix Inc. (z.d.). How ultrasonic sensors work.
-https://maxbotix.com/blogs/blog/how-ultrasonic-sensors-work
-
-Jackwin Safety. (z.d.). What are the cameras on top of traffic lights?
-https://jackwinsafety.com/what-are-the-cameras-on-top-of-traffic-lights/
-
-chatGPT
 
 
 ## Bronnen
@@ -273,3 +116,4 @@ Damen, R. (2026, 30 april). Hoe werkt Exact Online? Kosten, modules & tips (2026
 |0.1 |29-10-2026|opzet gemaakt|
 |0.11|30-10-2026| -voorwoord -samenvatting|
 |0.12|03-11-2026| -inleiding|
+|0.13|03-11-2026| -betrokkenpartijen|
