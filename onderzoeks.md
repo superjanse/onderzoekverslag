@@ -86,17 +86,24 @@ Op basis van deze informatie wordt een Power BI-dashboard ontwikkeld waarin de r
 
 Daarnaast richt het onderzoek zich op de betrouwbaarheid van de weergegeven cijfers. Hiervoor wordt gecontroleerd of de KPI's binnen Power BI correct worden berekend en overeenkomen met de gegevens uit Exact Online. Hiermee wordt beoogd het risico op fouten door handmatige berekeningen te verminderen en medewerkers te voorzien van betrouwbare informatie.
 
-## 2. betrokken partijen 
-Bij de ontwikkeling van het Power BI-dashboard zijn verschillende afdelingen en belanghebbenden betrokken. Iedere afdeling heeft eigen informatiebehoeften die tijdens het onderzoek in kaart worden gebracht. In onderstaande tabel worden de betrokken partijen en hun belangrijkste belangen weergegeven.
 
-| Betrokken partij | Belang |
-|---|---|
-| **Management** | Overzicht van bedrijfsprestaties en onderbouwing van beslissingen. |
-| **Verkoopafdeling** | Inzicht in verkoopcijfers, dealerprestaties, dealervoorraad en demosloten. |
-| **Marketingafdeling** | Inzicht in verkoopontwikkelingen en productprestaties. |
-| **Inkoop** | Verkoop- en voorraadgegevens als basis voor bestellingen. |
-| **Overige medewerkers** | Snel relevante bedrijfsinformatie kunnen vinden. |
-| **Investeerders** | Inzicht in belangrijke financiële resultaten, zoals omzet en winst, die op een duidelijke en professionele manier worden gepresenteerd. |
+## 2. Betrokken partijen
+
+Bij de ontwikkeling van het Power BI-dashboard zijn verschillende afdelingen en belanghebbenden betrokken. Iedere afdeling heeft eigen informatiebehoeften die tijdens het onderzoek in kaart worden gebracht.
+
+De hoofdverantwoordelijken van alle betrokken afdelingen worden geïnterviewd om hun informatiebehoeften, belangrijkste KPI's en verwachtingen van het dashboard vast te stellen.
+
+In onderstaande tabel worden de betrokken partijen, hun belangen en hun betrokkenheid bij het onderzoek weergegeven.
+
+| Betrokken partij | Belang bij het dashboard | Betrokkenheid bij het onderzoek |
+|---|---|---|
+| **Management** | Inzicht in omzet, winst, forecasts en algemene bedrijfsprestaties ter ondersteuning van beslissingen. | Opdrachtgever stelt eisen en beoordeelt het dashboard. |
+| **Sales B2B** | Inzicht in dealerprestaties, dealervoorraad, verkochte sloten per dealer en aanwezigheid van demosloten bij winkels. | De hoofdverantwoordelijke wordt geïnterviewd over de gewenste KPI's en informatiebehoeften. |
+| **Sales B2C** | Inzicht in verkoopcijfers via onder andere Amazon en Decathlon, verkoopontwikkelingen en de beschikbare interne magazijnvoorraad. | De hoofdverantwoordelijke wordt geïnterviewd over de gewenste verkoop- en voorraadgegevens. |
+| **Marketing** | Inzicht in advertentiekosten, advertentiekosten per verkocht slot en verkoopontwikkelingen. | De hoofdverantwoordelijke wordt geïnterviewd over relevante marketing-KPI's. |
+| **Inkoop en logistiek** | Inzicht in actuele voorraadniveaus, beschikbare sloten en verwachte leveringen. | De hoofdverantwoordelijken worden geïnterviewd over de benodigde voorraad- en leveringsinformatie. |
+| **Investeerders** | Inzicht in omzet, winst, verkoopprestaties en de voortgang ten opzichte van forecasts. | Indirect betrokken. Ontvangen relevante bedrijfsresultaten via presentaties of screenshots, zonder dagelijkse toegang tot het dashboard. |
+
 
 ## 2. Onderzoeksvragen
 
