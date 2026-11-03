@@ -58,9 +58,9 @@ Table of Contents
 ## Introductie 
 
 ### 1.1 Aanleiding
-Binnen TMD Locks worden bedrijfsgegevens opgeslagen in Exact Online. In de praktijk blijkt dat medewerkers veel tijd kwijt zijn aan het zoeken, scrollen en toepassen van filters om de juiste informatie te vinden. Gegevens zijn daardoor niet altijd snel en overzichtelijk beschikbaar wanneer dat nodig is.
+Binnen TMD Locks worden bedrijfsgegevens opgeslagen en beheerd in Exact Online, waaronder verkoopcijvers, voorraadgegevens en onvormatie over de dealers. Deze gegevens zijn belangrijk voor de dagelijkse werkzaamheden van verschillende afdelingen, zoals verkoop, marketing, inkoop en management.
 
-Om deze reden is behoefte ontstaan aan een nieuw dashboard in Power BI, waarin belangrijke bedrijfsgegevens op een duidelijke en toegankelijke manier worden gepresenteerd voor de verschillende afdelingen.
+De organisatie heeft behoefte aan een centrale en overzichtelijke manier om deze informatie toegankelijk te maken. Daarom is besloten een Power BI-dashboard te ontwikkelen waarin de belangrijkste bedrijfsgegevens worden samengebracht en op een duidelijke manier worden gepresenteerd. Hierdoor kunnen medewerkers in één oogopslag de informatie vinden die voor hen relevant is.
 
 ### 1.2 Probleemstelling
 
@@ -71,6 +71,22 @@ Daarnaast is uit gesprekken met de opdrachtgever gebleken dat een deel van de be
 Ook bij het presenteren van bedrijfsresultaten aan bijvoorbeeld potentiële investeerders levert dit problemen op. Het verzamelen van de juiste informatie kost tijd en uitgebreide tabellen uit Exact Online bieden onvoldoende overzicht om belangrijke resultaten op een duidelijke en professionele manier te presenteren.
 
 Het centrale probleem is dat bedrijfsinformatie niet snel en overzichtelijk genoeg beschikbaar is en dat handmatige berekeningen risico's voor de betrouwbaarheid met zich meebrengen. Dit leidt tot onnodig tijdverlies en bemoeilijkt het analyseren en presenteren van bedrijfsresultaten.
+
+###### 1.3 Doelstelling
+
+Het doel van dit onderzoek is om inzicht te krijgen in de informatiebehoeften van de verschillende afdelingen binnen TMD Locks. Door middel van gesprekken en interviews met medewerkers wordt onderzocht welke Key Performance Indicators (KPI's) voor iedere afdeling het belangrijkst zijn.
+
+Op basis van deze informatie wordt een Power BI-dashboard ontwikkeld waarin de relevante bedrijfsgegevens op een duidelijke en overzichtelijke manier worden weergegeven. Hierbij staat gebruiksvriendelijkheid centraal, zodat medewerkers in één oogopslag de belangrijkste informatie kunnen vinden, zonder door uitgebreide tabellen te hoeven scrollen of verschillende filters te moeten toepassen.
+
+Daarnaast richt het onderzoek zich op de betrouwbaarheid van de weergegeven cijfers. Hiervoor wordt gecontroleerd of de KPI's binnen Power BI correct worden berekend en overeenkomen met de gegevens uit Exact Online. Hiermee wordt beoogd het risico op fouten door handmatige berekeningen te verminderen en medewerkers te voorzien van betrouwbare informatie.
+
+
+## 2. Onderzoeksvragen
+
+
+Hoofdonderzoeksvraag
+
+Hoe kan TMD Locks een Power BI-dashboard ontwikkelen dat aansluit bij de informatiebehoeften en relevante KPI's van de verschillende afdelingen, en deze overzichtelijk, betrouwbaar en gebruiksvriendelijk presenteert?
 
 
 ## Introduction
@@ -256,4 +272,4 @@ Damen, R. (2026, 30 april). Hoe werkt Exact Online? Kosten, modules & tips (2026
 |---|---|-----|
 |0.1 |29-10-2026|opzet gemaakt|
 |0.11|30-10-2026| -voorwoord -samenvatting|
-|||
+|0.12|03-11-2026| -inleiding|
