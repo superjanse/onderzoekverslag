@@ -66,13 +66,17 @@ De organisatie heeft behoefte aan een centrale en overzichtelijke manier om deze
 
 ### 1.2 Probleemstelling
 
-Binnen TMD Locks kost het medewerkers veel tijd om de juiste bedrijfsinformatie te vinden. Bij het gebruik van Exact Online moeten medewerkers regelmatig zoeken, door uitgebreide tabellen scrollen en verschillende filters toepassen om de gewenste gegevens te verkrijgen. Dit maakt het opzoeken en analyseren van bedrijfsinformatie tijdrovend en inefficiënt.
+Tijdens de eerste gesprekken met de opdrachtgever, zijn verschillende problemen rondom het verzamelen, analyseren en presenteren van bedrijfsgegevens binnen TMD Locks naar voren gekomen.
 
-Daarnaast is uit gesprekken met de opdrachtgever gebleken dat een deel van de bedrijfsgegevens handmatig wordt berekend buiten Exact Online om. Hierdoor bestaat het risico op menselijke fouten, waardoor niet altijd zeker is of de berekende cijfers een correct beeld geven van de bedrijfsprestaties.
+Momenteel kost het medewerkers extra tijd om de juiste informatie in Exact Online te vinden. Zij moeten regelmatig door uitgebreide tabellen zoeken en verschillende filters toepassen. Dit geldt onder andere voor verkoopcijfers, het aantal verkochte sloten per dealer, dealervoorraad en verkoopontwikkelingen.
 
-Ook bij het presenteren van bedrijfsresultaten aan bijvoorbeeld potentiële investeerders levert dit problemen op. Het verzamelen van de juiste informatie kost tijd en uitgebreide tabellen uit Exact Online bieden onvoldoende overzicht om belangrijke resultaten op een duidelijke en professionele manier te presenteren.
+Daarnaast heeft de organisatie behoefte aan KPI's die worden berekend op basis van bestaande bedrijfsgegevens. Deze berekeningen zijn niet direct beschikbaar in Exact Online en worden daarom uitgevoerd op het moment dat de informatie nodig is, soms met behulp van Excel. Dit kost extra tijd en brengt bij handmatige berekeningen het risico op menselijke fouten met zich mee.
 
-Het centrale probleem is dat bedrijfsinformatie niet snel en overzichtelijk genoeg beschikbaar is en dat handmatige berekeningen risico's voor de betrouwbaarheid met zich meebrengen. Dit leidt tot onnodig tijdverlies en bemoeilijkt het analyseren en presenteren van bedrijfsresultaten.
+Ook voor inkoop en logistiek is overzichtelijke bedrijfsinformatie belangrijk. Binnen TMD Locks is het voorgekomen dat sloten niet tijdig geleverd konden worden doordat deze niet op voorraad waren. Goed inzicht in de beschikbare voorraad en verwachte leveringen is daarom belangrijk om de voorraadplanning te ondersteunen.
+
+Verder is het momenteel lastig om bedrijfsresultaten op een duidelijke en professionele manier aan potentiële investeerders te presenteren. TMD Locks wil inzicht kunnen geven in omzet, winst, verkoopprestaties en de voortgang ten opzichte van de opgestelde forecasts.
+
+Het centrale probleem is dat belangrijke bedrijfsinformatie binnen TMD Locks niet direct overzichtelijk beschikbaar is en aanvullende KPI's afzonderlijk moeten worden berekend. Hierdoor kost het verzamelen, analyseren en presenteren van informatie extra tijd en is het lastig om snel inzicht te krijgen in de bedrijfsprestaties
 
 ### 1.3 Doelstelling
 
