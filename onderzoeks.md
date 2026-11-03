@@ -58,11 +58,6 @@ Table of Contents
 ## Introductie 
 
 ### 1.1 Aanleiding
-
-Binnen TMD Locks worden verschillende bedrijfsgegevens opgeslagen en beheerd in Exact Online, waaronder verkoopcijfers, voorraadgegevens en informatie over dealers. Deze gegevens zijn belangrijk voor de dagelijkse werkzaamheden van verschillende afdelingen, zoals verkoop, marketing, inkoop en management.
-
-De organisatie heeft behoefte aan een centrale en overzichtelijke manier om deze informatie toegankelijk te maken. Daarom is besloten een nieuw Power BI-dashboard te ontwikkelen, waarin de belangrijkste bedrijfsgegevens worden samengebracht en op een duidelijke manier worden gepresenteerd.
-
 Binnen TMD Locks worden bedrijfsgegevens opgeslagen in Exact Online. In de praktijk blijkt dat medewerkers veel tijd kwijt zijn aan het zoeken, scrollen en toepassen van filters om de juiste informatie te vinden. Gegevens zijn daardoor niet altijd snel en overzichtelijk beschikbaar wanneer dat nodig is.
 
 Om deze reden is behoefte ontstaan aan een nieuw dashboard in Power BI, waarin belangrijke bedrijfsgegevens op een duidelijke en toegankelijke manier worden gepresenteerd voor de verschillende afdelingen.
