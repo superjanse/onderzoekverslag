@@ -49,7 +49,7 @@ Table of Contents
   - [1.1 Aanleiding](#11-aanleiding)
   - [1.2 Probleemstelling](#12-probleemstelling)
   - [1.3 Doelstelling](#13-doelstelling)
-  - [2. Betrokken partijen](#14-betrokken-partijen)
+- [2. Betrokken partijen](#14-betrokken-partijen)
 - [3. Onderzoeksvragen](#2-onderzoeksvragen)
   - [3.1 Hoofdonderzoeksvraag](#21-hoofdonderzoeksvraag)
 - [Bronnen](#bronnen)
