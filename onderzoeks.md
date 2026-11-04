@@ -106,36 +106,45 @@ In onderstaande tabel worden de betrokken partijen, hun belangen en hun betrokke
 
 ## 3. Begrippenlijst
 
-| Begrip | Betekenis |
-|---|---|
-| **Power BI** | Een programma van Microsoft waarmee gegevens worden geanalyseerd en weergegeven in interactieve dashboards en rapportages. |
-| **Exact Online** | Een online bedrijfssoftwarepakket waarin onder andere verkoop-, financiële en voorraadgegevens worden bijgehouden. |
-| **Dashboard** | Een visueel overzicht van belangrijke bedrijfsinformatie en KPI's. |
-| **KPI** | Key Performance Indicator: een meetbare indicator waarmee de prestaties van een organisatie worden beoordeeld. |
-| **Datakwaliteit** | De mate waarin gegevens juist, volledig, actueel en betrouwbaar zijn. |
-| **Informatiebehoefte** | De informatie die een medewerker of afdeling nodig heeft om werkzaamheden uit te voeren en beslissingen te nemen. |
-| **Gebruiksvriendelijkheid** | De mate waarin gebruikers een systeem eenvoudig en efficiënt kunnen gebruiken. |
-| **Datavisualisatie** | Het weergeven van gegevens met grafieken, tabellen en diagrammen om informatie begrijpelijk te maken. |
-| **Dealerprestaties** | De resultaten van dealers, bijvoorbeeld het aantal verkochte sloten en de beschikbare dealervoorraad. |
-| **Connector** | Een technische koppeling waarmee gegevens vanuit Exact Online naar Power BI worden overgebracht. |
-| **B2B (Business-to-Business)** | Verkoop van producten of diensten aan andere bedrijven, zoals dealers en winkels. |
-| **B2C (Business-to-Consumer)** | Verkoop van producten of diensten aan consumenten, bijvoorbeeld via webshops. |
-| **Forecast** | Een prognose van toekomstige bedrijfsresultaten, bijvoorbeeld de verwachte omzet of verkoopcijfers. |
+| Begrip | Betekenis |Bron|
+|---|---|---|
+| **Power BI** | Een programma van Microsoft waarmee gegevens worden geanalyseerd en weergegeven in interactieve dashboards en rapportages. |(JulCsc, 2023)|
+| **Exact Online** | Een online bedrijfssoftwarepakket waarin onder andere verkoop-, financiële en voorraadgegevens worden bijgehouden. |(Exact, 2026)|
+| **Dashboard** | Een visueel overzicht van belangrijke bedrijfsinformatie en KPI's. |(JulCsc, 2023)|
+| **KPI** | Key Performance Indicator: een meetbare indicator waarmee de prestaties van een organisatie worden beoordeeld. |(Key Performance Indicators, 2026)|
+| **Datakwaliteit** | De mate waarin gegevens juist, volledig, actueel en betrouwbaar zijn. |(Jonker, 2026)|
+| **Datavisualisatie** | Het weergeven van gegevens met grafieken, tabellen en diagrammen om informatie begrijpelijk te maken. |(What Is Data Visualization?, 2025)|
+| **Connector** | Een technische koppeling waarmee gegevens vanuit Exact Online naar Power BI worden overgebracht. |(Whhender, 2026)|
+| **B2B (Business-to-Business)** | Verkoop van producten of diensten aan andere bedrijven, zoals dealers en winkels. |(Wat Is het Verschil Tussen B2B en B2C? - Schot, 2026)|
+| **B2C (Business-to-Consumer)** | Verkoop van producten of diensten aan consumenten, bijvoorbeeld via webshops. |(Wat Is het Verschil Tussen B2B en B2C? - Schot, 2026)|
+| **Forecast** | Een prognose van toekomstige bedrijfsresultaten, bijvoorbeeld de verwachte omzet of verkoopcijfers. |(De Snoo, 2026)|
 
 
 
-## 2. Onderzoeksvragen
+## 4. Onderzoeksvragen
 
 
-Hoofdonderzoeksvraag
-
-Hoe kan TMD Locks een Power BI-dashboard ontwikkelen dat aansluit bij de informatiebehoeften en relevante KPI's van de verschillende afdelingen, en deze overzichtelijk, betrouwbaar en gebruiksvriendelijk presenteert?
 
 
 ## Bronnen
 
 Damen, R. (2026, 30 april). Hoe werkt Exact Online? Kosten, modules & tips (2026). Virtual Computing. Geraadpleegd op 29 oktober 2026, van https://virtualcomputing.nl/inzichten/hoe-werkt-exact-online
 
+Exact. (2026, 28 augustus). Exact Online: de beste business software voor bedrijven en accountants | Exact. Geraadpleegd op 4 november 2026, van https://www.exact.com/nl/software/exact-online
+
+Key Performance Indicators | IBM WebMethods Optimize for Process 11.1.0. (2026, November 2). IBM Documentation. https://www.ibm.com/docs/en/webmethods-bpm/wm-optimize/11.1.0?topic=concepts-key-performance-indicators
+
+Jonker, J. A. A. (2026, 2 april). What are data quality dimensions? Geraadpleegd op 4 november 2026, van https://www.ibm.com/think/topics/data-quality-dimensions
+
+What is data visualization? (2025, 17 november). Geraadpleegd op 4 november 2026, van https://www.ibm.com/think/topics/data-visualization
+
+Whhender. (2026, 10 oktober). Power Query-Connectors - Power query. Microsoft Learn. Geraadpleegd op 4 november 2016, van https://learn.microsoft.com/nl-nl/power-query/connectors/
+
+Wat is het verschil tussen B2B en B2C? - Schot. (2026, 31 juli). Schot. Geraadpleegd op 4 november 2026, van https://schot.nl/onze-diensten/advies-strategie/wat-is-het-verschil-tussen-b2b-en-b2c/
+
+De Snoo, L. (2026, 28 januari). Forecasting: wat is het en hoe kan je er een maken? MKB Servicedesk. https://www.mkbservicedesk.nl/administratie/begroten/wat-is-forecasting
+
+JulCsc. (2023, 25 maart). Wat is Power BI? - Power BI. Microsoft Learn. Geraadpleegd op 4 november 2026, van https://learn.microsoft.com/nl-nl/power-bi/fundamentals/power-bi-overview
 ## versie beheer 
 |versie |datum | gedaan|
 |---|---|-----|
@@ -143,3 +152,4 @@ Damen, R. (2026, 30 april). Hoe werkt Exact Online? Kosten, modules & tips (2026
 |0.11|30-10-2026| -voorwoord -samenvatting|
 |0.12|03-11-2026| -inleiding|
 |0.13|03-11-2026| -betrokkenpartijen|
+|0.14|03-11-2026||
