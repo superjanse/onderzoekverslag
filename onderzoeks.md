@@ -4,7 +4,7 @@
 |---|---|
 | auteur | Hugo Janse |
 | Datum | 01-09-2026 |
-| Versie | 0.13 |
+| Versie | 0.15 |
 | clasievicatie | Intern |
 | client | Leonard Heuker of hoek |
 | Bedrijf | TMD Locks |
@@ -124,6 +124,20 @@ In onderstaande tabel worden de betrokken partijen, hun belangen en hun betrokke
 ## 4. Onderzoeksvragen
 
 
+### 4.1 Hoofdonderzoeksvraag
+
+Hoe kan TMD Locks een Power BI-dashboard ontwikkelen dat aansluit bij de informatiebehoeften en relevante KPI's van de verschillende afdelingen, en deze overzichtelijk, betrouwbaar en gebruiksvriendelijk presenteert?
+
+### 4.2 deelvragen 
+1. Hoe verzamelen en analyseren medewerkers van TMD Locks momenteel bedrijfsinformatie en welke knelpunten ervaren zij hierbij?
+
+2. Welke bedrijfsgegevens en KPI's zijn voor de verschillende afdelingen binnen TMD Locks het belangrijkst om hun werkzaamheden uit te voeren en beslissingen te ondersteunen?
+
+3.  In hoeverre komen de gegevens en berekende KPI's in Power BI overeen met de oorspronkelijke gegevens uit Exact Online, en waardoor ontstaan eventuele verschillen?
+
+4.  Hoe kunnen de geselecteerde KPI's en bedrijfsgegevens binnen Power BI op een overzichtelijke en gebruiksvriendelijke manier worden gevisualiseerd, zodat medewerkers in één oogopslag de belangrijkste informatie kunnen vinden?
+   
+5.  In hoeverre voldoet het ontwikkelde Power BI-dashboard aan de vastgestelde informatiebehoeften en eisen op het gebied van overzichtelijkheid, gebruiksvriendelijkheid en betrouwbaarheid? 
 
 
 ## Bronnen
@@ -152,4 +166,5 @@ JulCsc. (2023, 25 maart). Wat is Power BI? - Power BI. Microsoft Learn. Geraadpl
 |0.11|30-10-2026| -voorwoord -samenvatting|
 |0.12|03-11-2026| -inleiding|
 |0.13|03-11-2026| -betrokkenpartijen|
-|0.14|03-11-2026||
+|0.14|04-11-2026| - bronnen en begrippen|
+|0.15|04-11-2026| - hoofd en deelvragen|
