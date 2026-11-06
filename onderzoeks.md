@@ -139,6 +139,19 @@ Hoe kan TMD Locks een Power BI-dashboard ontwikkelen dat aansluit bij de informa
    
 5.  In hoeverre voldoet het ontwikkelde Power BI-dashboard aan de vastgestelde informatiebehoeften en eisen op het gebied van overzichtelijkheid, gebruiksvriendelijkheid en betrouwbaarheid? 
 
+## 5.1 Onderzoeksmethode
+Interviews
+
+Om de informatiebehoeften van de verschillende afdelingen binnen TMD Locks in kaart te brengen, wordt gebruikgemaakt van semigestructureerde interviews. Hiervoor worden de hoofdverantwoordelijken van de betrokken afdelingen geïnterviewd.
+
+Bij een semigestructureerd interview wordt gewerkt met een vooraf opgestelde vragenlijst, waarbij ruimte blijft om aanvullende vragen te stellen en dieper in te gaan op de antwoorden van de geïnterviewde. Deze methode maakt het mogelijk om de resultaten van verschillende interviews met elkaar te vergelijken, terwijl er tegelijkertijd aandacht kan worden besteed aan de specifieke werkzaamheden en informatiebehoeften van iedere afdeling.
+
+Voor dit onderzoek wordt één algemene interviewleidraad opgesteld, die waar nodig wordt aangevuld met afdelingsspecifieke vragen. Tijdens de interviews wordt onderzocht welke bedrijfsgegevens medewerkers momenteel gebruiken, waarvoor zij Exact Online gebruiken, welke knelpunten zij ervaren en welke KPI's voor hun werkzaamheden belangrijk zijn. Daarnaast wordt besproken hoe zij deze informatie het liefst terugzien in het nieuwe Power BI-dashboard.
+
+Waar dit relevant is, worden de interviews aangevuld met elementen van contextual inquiry. Hierbij wordt de medewerker gevraagd om bepaalde werkzaamheden in Exact Online te demonstreren, bijvoorbeeld het opzoeken van verkoopcijfers of voorraadgegevens. Hierdoor kan worden onderzocht welke handelingen nodig zijn om informatie te verkrijgen en waar eventuele knelpunten ontstaan.
+
+De resultaten van de interviews worden gebruikt om de informatiebehoeften per afdeling vast te stellen en de belangrijkste KPI's en eisen voor het Power BI-dashboard te selecteren.
+
 
 ## Bronnen
 
@@ -168,3 +181,5 @@ JulCsc. (2023, 25 maart). Wat is Power BI? - Power BI. Microsoft Learn. Geraadpl
 |0.13|03-11-2026| -betrokkenpartijen|
 |0.14|04-11-2026| - bronnen en begrippen|
 |0.15|04-11-2026| - hoofd en deelvragen|
+|0.16|05-11-2026| - onderzoeks methode |
+|0.17|06-11-2026|- onderzoeks methode |
