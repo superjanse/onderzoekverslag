@@ -148,9 +148,21 @@ Bij een semigestructureerd interview wordt gewerkt met een vooraf opgestelde vra
 
 Voor dit onderzoek wordt één algemene interviewleidraad opgesteld, die waar nodig wordt aangevuld met afdelingsspecifieke vragen. Tijdens de interviews wordt onderzocht welke bedrijfsgegevens medewerkers momenteel gebruiken, waarvoor zij Exact Online gebruiken, welke knelpunten zij ervaren en welke KPI's voor hun werkzaamheden belangrijk zijn. Daarnaast wordt besproken hoe zij deze informatie het liefst terugzien in het nieuwe Power BI-dashboard.
 
-Waar dit relevant is, worden de interviews aangevuld met elementen van contextual inquiry. Hierbij wordt de medewerker gevraagd om bepaalde werkzaamheden in Exact Online te demonstreren, bijvoorbeeld het opzoeken van verkoopcijfers of voorraadgegevens. Hierdoor kan worden onderzocht welke handelingen nodig zijn om informatie te verkrijgen en waar eventuele knelpunten ontstaan.
-
 De resultaten van de interviews worden gebruikt om de informatiebehoeften per afdeling vast te stellen en de belangrijkste KPI's en eisen voor het Power BI-dashboard te selecteren.
+
+#### Analyse van de interviewresultaten
+
+Na het afnemen van de interviews worden de antwoorden per afdeling verzameld en geanalyseerd. Hierbij wordt gekeken naar de huidige informatiebehoeften, ervaren knelpunten en gewenste KPI's.
+
+De resultaten worden vervolgens samengevoegd tot één overzicht waarin de belangrijkste KPI's en wensen van de verschillende afdelingen worden opgenomen.
+
+Het overzicht met de verzamelde KPI's en informatiebehoeften wordt voorgelegd aan de opdrachtgever, Leonard Heuker of Hoek. Tijdens dit gesprek worden de onderzoeksresultaten besproken en bepaalt de opdrachtgever welke KPI's en functionaliteiten de hoogste prioriteit krijgen.
+
+Op basis van deze prioritering worden de definitieve eisen voor het Power BI-dashboard vastgesteld.
+
+
+
+
 
 
 ## Bronnen
@@ -172,6 +184,10 @@ Wat is het verschil tussen B2B en B2C? - Schot. (2026, 31 juli). Schot. Geraadpl
 De Snoo, L. (2026, 28 januari). Forecasting: wat is het en hoe kan je er een maken? MKB Servicedesk. https://www.mkbservicedesk.nl/administratie/begroten/wat-is-forecasting
 
 JulCsc. (2023, 25 maart). Wat is Power BI? - Power BI. Microsoft Learn. Geraadpleegd op 4 november 2026, van https://learn.microsoft.com/nl-nl/power-bi/fundamentals/power-bi-overview
+
+
+The Open University. (2025). *Conducting an interview*. The Open University. Geraadpleegd op 9 november 2026, van https://help.open.ac.uk/postgraduate-study-skills/conducting-an-interview
+
 ## versie beheer 
 |versie |datum | gedaan|
 |---|---|-----|
@@ -182,4 +198,5 @@ JulCsc. (2023, 25 maart). Wat is Power BI? - Power BI. Microsoft Learn. Geraadpl
 |0.14|04-11-2026| - bronnen en begrippen|
 |0.15|04-11-2026| - hoofd en deelvragen|
 |0.16|05-11-2026| - onderzoeks methode |
-|0.17|06-11-2026|- onderzoeks methode |
+|0.17|06-11-2026| - onderzoeks methode |
+|0.18|09-11-2026|- onderzoeks methode |
