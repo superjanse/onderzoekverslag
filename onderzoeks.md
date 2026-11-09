@@ -4,7 +4,7 @@
 |---|---|
 | auteur | Hugo Janse |
 | Datum | 01-09-2026 |
-| Versie | 0.15 |
+| Versie | 0.2 |
 | clasievicatie | Intern |
 | client | Leonard Heuker of hoek |
 | Bedrijf | TMD Locks |
@@ -160,6 +160,29 @@ Het overzicht met de verzamelde KPI's en informatiebehoeften wordt voorgelegd aa
 
 Op basis van deze prioritering worden de definitieve eisen voor het Power BI-dashboard vastgesteld.
 
+**Doel:** Onderzoeken welke bedrijfsinformatie medewerkers momenteel gebruiken, welke KPI's zij belangrijk vinden en wat zij verwachten van het nieuwe Power BI-dashboard.
+
+**Interviewduur:** 5–10 minuten
+
+**1. Huidige informatie**
+
+Welke bedrijfsinformatie gebruik je momenteel het meest voor je werkzaamheden?
+
+**2. Huidige werkwijze**
+
+Waar en hoe zoek je deze informatie momenteel op?
+
+**3. Tijdsduur**
+
+Hoeveel tijd kost het je gemiddeld om deze informatie te vinden en eventueel te berekenen?
+
+**4. Gewenste informatie**
+
+Welke informatie en KPI's zou je graag terugzien in het nieuwe Power BI-dashboard?
+
+**5. Prioriteiten**
+
+Welke drie gegevens of KPI's zijn voor jou het belangrijkst om in één oogopslag te kunnen zien?
 
 
 
@@ -200,3 +223,4 @@ The Open University. (2025). *Conducting an interview*. The Open University. Ger
 |0.16|05-11-2026| - onderzoeks methode |
 |0.17|06-11-2026| - onderzoeks methode |
 |0.18|09-11-2026|- onderzoeks methode |
+|0.2|09-11-2026| - interview vragen |
