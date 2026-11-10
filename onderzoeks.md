@@ -166,7 +166,7 @@ Op basis van deze prioritering worden de definitieve eisen voor het Power BI-das
 
 **1. Huidige informatie**
 
-Welke bedrijfsinformatie gebruik je momenteel het meest voor je werkzaamheden?
+Welke bedrijfsinformatie uit exact online gebruik je momenteel het meest voor je werkzaamheden?
 
 **2. Huidige werkwijze**
 
@@ -183,6 +183,20 @@ Welke informatie en KPI's zou je graag terugzien in het nieuwe Power BI-dashboar
 **5. Prioriteiten**
 
 Welke drie gegevens of KPI's zijn voor jou het belangrijkst om in één oogopslag te kunnen zien?
+
+
+## Resultaaten 
+
+
+### Interview 1 – CTO
+
+Voor het onderzoek naar de informatiebehoeften binnen TMD Locks is een interview gehouden met Marnix, CTO van de organisatie. Hij is verantwoordelijk voor de technische aspecten van het bedrijf, met name de software.
+
+Uit het interview blijkt dat er behoefte is aan meer inzicht in de verhouding tussen verkoopresultaten en advertentiekosten. Momenteel worden deze gegevens vanuit verschillende bronnen bekeken en deels handmatig met elkaar vergeleken. Volgens de geïnterviewde kost dit te veel tijd.
+
+De belangrijkste KPI's die uit het interview naar voren komen, zijn het aantal verkochte sloten, de Return on Ad Spend (ROAS) en de kosten per verkoop (CAC). Hierbij is het belangrijk dat de kosten per verkoop specifiek worden berekend voor B2C-verkopen en dat B2B-verkopen buiten deze berekening blijven.
+
+Daarnaast is er behoefte aan inzicht in de verkoopresultaten per verkoopkanaal, bijvoorbeeld via Amazon en de eigen website. Ook wil de geïnterviewde kunnen zien hoeveel sloten vanuit B2B worden geregistreerd.
 
 
 
@@ -224,3 +238,4 @@ The Open University. (2025). *Conducting an interview*. The Open University. Ger
 |0.17|06-11-2026| - onderzoeks methode |
 |0.18|09-11-2026|- onderzoeks methode |
 |0.2|09-11-2026| - interview vragen |
+|0.21|10-11-2026| - interview 1|
