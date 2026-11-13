@@ -139,7 +139,11 @@ Hoe kan TMD Locks een Power BI-dashboard ontwikkelen dat aansluit bij de informa
    
 5.  In hoeverre voldoet het ontwikkelde Power BI-dashboard aan de vastgestelde informatiebehoeften en eisen op het gebied van overzichtelijkheid, gebruiksvriendelijkheid en betrouwbaarheid? 
 
-## 5.1 Onderzoeksmethode
+
+## 5. Onderzoek
+
+### 5.1 Onderzoeksmethode
+
 Interviews
 
 Om de informatiebehoeften van de verschillende afdelingen binnen TMD Locks in kaart te brengen, wordt gebruikgemaakt van semigestructureerde interviews. Hiervoor worden de hoofdverantwoordelijken van de betrokken afdelingen geïnterviewd.
@@ -159,6 +163,7 @@ De resultaten worden vervolgens samengevoegd tot één overzicht waarin de belan
 Het overzicht met de verzamelde KPI's en informatiebehoeften wordt voorgelegd aan de opdrachtgever, Leonard Heuker of Hoek. Tijdens dit gesprek worden de onderzoeksresultaten besproken en bepaalt de opdrachtgever welke KPI's en functionaliteiten de hoogste prioriteit krijgen.
 
 Op basis van deze prioritering worden de definitieve eisen voor het Power BI-dashboard vastgesteld.
+
 
 **Doel:** Onderzoeken welke bedrijfsinformatie medewerkers momenteel gebruiken, welke KPI's zij belangrijk vinden en wat zij verwachten van het nieuwe Power BI-dashboard.
 
@@ -185,18 +190,28 @@ Welke informatie en KPI's zou je graag terugzien in het nieuwe Power BI-dashboar
 Welke drie gegevens of KPI's zijn voor jou het belangrijkst om in één oogopslag te kunnen zien?
 
 
-## Resultaaten 
+## 6. Resultaten van de interviews
 
+### 6.1 Huidige werkwijze
 
-### Interview 1 – CTO
+Uit de interviews blijkt dat medewerkers van TMD Locks verschillende systemen gebruiken om bedrijfsinformatie te verzamelen en te analyseren. Welke systemen worden gebruikt, verschilt per functie en informatiebehoefte.
 
-Voor het onderzoek naar de informatiebehoeften binnen TMD Locks is een interview gehouden met Marnix, CTO van de organisatie. Hij is verantwoordelijk voor de technische aspecten van het bedrijf, met name de software.
+De financieel verantwoordelijke gebruikt Exact Online voor het verzamelen van verkoop- en financiële gegevens. Wanneer aanvullende analyses nodig zijn, worden gegevens verwerkt in Excel.
 
-Uit het interview blijkt dat er behoefte is aan meer inzicht in de verhouding tussen verkoopresultaten en advertentiekosten. Momenteel worden deze gegevens vanuit verschillende bronnen bekeken en deels handmatig met elkaar vergeleken. Volgens de geïnterviewde kost dit te veel tijd.
+De Customer Support Manager gebruikt eveneens gegevens uit Exact Online. Hierbij worden verschillende analyses gecombineerd en vervolgens met behulp van draaitabellen in Excel verwerkt om inzicht te krijgen in de voorraad en verkoophistorie.
 
-De belangrijkste KPI's die uit het interview naar voren komen, zijn het aantal verkochte sloten, de Return on Ad Spend (ROAS) en de kosten per verkoop (CAC). Hierbij is het belangrijk dat de kosten per verkoop specifiek worden berekend voor B2C-verkopen en dat B2B-verkopen buiten deze berekening blijven.
+De accountmanager B2B Sales gebruikt Exact Online om de doorverkoop bij dealers te volgen. Hiervoor worden geregistreerde serienummers gebruikt. Daarnaast wordt Shopify geraadpleegd voor informatie over specifieke bestellingen.
 
-Daarnaast is er behoefte aan inzicht in de verkoopresultaten per verkoopkanaal, bijvoorbeeld via Amazon en de eigen website. Ook wil de geïnterviewde kunnen zien hoeveel sloten vanuit B2B worden geregistreerd.
+Ook de Managing Director maakt gebruik van Exact Online. Verkoopgegevens worden geëxporteerd naar Excel en vergeleken met bestaande forecasts om de verkoopprestaties te beoordelen.
+
+### 6.2 Knelpunten in de huidige werkwijz
+
+Een terugkerend knelpunt is de tijd die medewerkers besteden aan het verzamelen, combineren en analyseren van bedrijfsgegevens.
+
+De Customer Support Manager geeft aan dat een voorraadanalyse ongeveer twee uur kost. De accountmanager B2B Sales besteedt naar schatting drie tot vier uur per week aan het verzamelen en analyseren van informatie.
+
+Daarnaast blijkt uit de interviews dat bedrijfsinformatie niet altijd direct in de gewenste vorm beschikbaar is. Medewerkers moeten daarom gegevens uit verschillende bronnen raadplegen of aanvullende berekeningen uitvoeren om de benodigde inzichten te verkrijgen.
+
 
 
 
