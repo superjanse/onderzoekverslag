@@ -276,7 +276,39 @@ Uit dit overzicht blijkt dat meerdere medewerkers behoefte hebben aan vergelijkb
 
 Daarnaast bestaan er specifieke informatiebehoeften die vooral voor één afdeling relevant zijn. Zo richt B2B Sales zich op de doorverkoop en voorraad bij dealers, terwijl Customer Support behoefte heeft aan actuele productvoorraad en ondersteuning bij inkoopbeslissingen.
 
+### 6.5 Prioriteiten en overeenkomsten tussen afdelingen
 
+Tijdens de interviews is ook gevraagd welke informatie medewerkers het belangrijkst vinden om direct te kunnen bekijken.
+
+Voor het management zijn vooral de totale verkoopprestaties, het onderscheid tussen B2B en B2C, de marketingkosten per verkocht slot en de vergelijking met de forecast belangrijk.
+
+Voor Finance ligt de nadruk op maandelijkse verkoopaantallen, de B2B/B2C-verdeling en de prestaties ten opzichte van de forecast.
+
+De CTO richt zich vooral op de relatie tussen marketinguitgaven en verkopen, waarbij ook de prestaties van afzonderlijke verkoopkanalen belangrijk zijn.
+
+Voor B2B Sales zijn de doorverkoop per dealer, de gemiddelde maandelijkse verkoop en de beschikbare voorraad bij dealers belangrijke aandachtspunten.
+
+Voor Customer Support zijn dit de actuele productvoorraad, historische verkoopaantallen en een mogelijk besteladvies.
+
+De resultaten laten zien dat er zowel gedeelde als afdelingsspecifieke informatiebehoeften bestaan. De verkoopgegevens vormen voor meerdere functies een gemeenschappelijke basis, maar de gewenste analyses en presentaties verschillen.
+
+### 6.6 Samenvatting van de belangrijkste bevindingen
+
+Op basis van de vijf interviews komen drie belangrijke bevindingen naar voren.
+
+1. Bedrijfsinformatie is verspreid over verschillende systemen.
+
+Medewerkers gebruiken onder andere Exact Online, Shopify en Excel om de benodigde informatie te verzamelen. Hierdoor moeten gegevens regelmatig handmatig worden gecombineerd en vergeleken.
+
+2. De informatiebehoefte verschilt per afdeling.
+
+Hoewel meerdere medewerkers dezelfde verkoopgegevens gebruiken, verschilt de manier waarop zij deze willen analyseren. Het management richt zich op de algemene bedrijfsprestaties, terwijl andere afdelingen specifieke inzichten nodig hebben voor hun dagelijkse werkzaamheden.
+
+3. Er bestaat behoefte aan centraal beschikbare en overzichtelijke bedrijfsinformatie.
+
+Uit meerdere interviews blijkt dat medewerkers gegevens sneller willen kunnen raadplegen, vergelijken en analyseren. Het samenbrengen van de benodigde informatie in Power BI kan bijdragen aan het verminderen van handmatige werkzaamheden en het verbeteren van de informatievoorziening.
+
+Deze bevindingen vormen de basis voor het vaststellen van de eisen en wensen voor het Power BI-dashboard.
 
 ## Bronnen
 
