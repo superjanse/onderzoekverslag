@@ -4,7 +4,7 @@
 |---|---|
 | auteur | Hugo Janse |
 | Datum | 01-09-2026 |
-| Versie | 0.2 |
+| Versie | 0.24 |
 | clasievicatie | Intern |
 | client | Leonard Heuker of hoek |
 | Bedrijf | TMD Locks |
@@ -192,28 +192,89 @@ Welke drie gegevens of KPI's zijn voor jou het belangrijkst om in één oogopsla
 
 ## 6. Resultaten van de interviews
 
+
+In dit hoofdstuk worden de resultaten van vijf interviews met medewerkers van TMD Locks beschreven. De interviews zijn gehouden om inzicht te krijgen in de huidige werkwijze, de knelpunten bij het verzamelen en analyseren van bedrijfsgegevens en de informatiebehoeften van verschillende afdelingen.
+
+De antwoorden zijn geanalyseerd en gegroepeerd op basis van terugkerende thema's. Hierbij is gekeken naar overeenkomsten en verschillen tussen de geïnterviewde medewerkers.
+
 ### 6.1 Huidige werkwijze
 
 Uit de interviews blijkt dat medewerkers van TMD Locks verschillende systemen gebruiken om bedrijfsinformatie te verzamelen en te analyseren. Welke systemen worden gebruikt, verschilt per functie en informatiebehoefte.
 
-De financieel verantwoordelijke gebruikt Exact Online voor het verzamelen van verkoop- en financiële gegevens. Wanneer aanvullende analyses nodig zijn, worden gegevens verwerkt in Excel.
+De Head of Finance gebruikt Exact Online voor het verzamelen van financiële informatie en verkoopgegevens. Wanneer aanvullende analyses nodig zijn, worden gegevens verwerkt in Excel.
 
-De Customer Support Manager gebruikt eveneens gegevens uit Exact Online. Hierbij worden verschillende analyses gecombineerd en vervolgens met behulp van draaitabellen in Excel verwerkt om inzicht te krijgen in de voorraad en verkoophistorie.
+De Customer Support Manager gebruikt gegevens uit Exact Online om voorraadstanden en verkoophistorie te analyseren. Hierbij worden verschillende overzichten gecombineerd en vervolgens in Excel verwerkt met behulp van draaitabellen.
 
-De accountmanager B2B Sales gebruikt Exact Online om de doorverkoop bij dealers te volgen. Hiervoor worden geregistreerde serienummers gebruikt. Daarnaast wordt Shopify geraadpleegd voor informatie over specifieke bestellingen.
+De accountmanager B2B Sales gebruikt Exact Online om inzicht te krijgen in de doorverkoop bij dealers. Hiervoor worden geregistreerde serienummers gebruikt. Daarnaast wordt Shopify geraadpleegd voor informatie over specifieke bestellingen.
 
-Ook de Managing Director maakt gebruik van Exact Online. Verkoopgegevens worden geëxporteerd naar Excel en vergeleken met bestaande forecasts om de verkoopprestaties te beoordelen.
+De CTO gebruikt verschillende gegevensbronnen om verkoopprestaties en marketinguitgaven te vergelijken. Exact Online wordt hierbij niet rechtstreeks gebruikt voor zijn dagelijkse analyses.
 
-### 6.2 Knelpunten in de huidige werkwijz
+De Managing Director gebruikte Exact Online voornamelijk voor financiële informatie, zoals het banksaldo en de debiteuren- en crediteurenpositie. Andere belangrijke bedrijfsgegevens, waaronder verkoopinformatie en forecasts, werden bijgehouden in afzonderlijke Excel-bestanden.
+
+
+
+### 6.2 Knelpunten in de huidige werkwijze
 
 Een terugkerend knelpunt is de tijd die medewerkers besteden aan het verzamelen, combineren en analyseren van bedrijfsgegevens.
 
-De Customer Support Manager geeft aan dat een voorraadanalyse ongeveer twee uur kost. De accountmanager B2B Sales besteedt naar schatting drie tot vier uur per week aan het verzamelen en analyseren van informatie.
+De Customer Support Manager geeft aan dat een voorraadanalyse ongeveer twee uur kan kosten. Hierbij moeten gegevens uit verschillende overzichten worden gecombineerd en verwerkt in Excel.
 
-Daarnaast blijkt uit de interviews dat bedrijfsinformatie niet altijd direct in de gewenste vorm beschikbaar is. Medewerkers moeten daarom gegevens uit verschillende bronnen raadplegen of aanvullende berekeningen uitvoeren om de benodigde inzichten te verkrijgen.
+De accountmanager B2B Sales besteedt naar schatting drie tot vier uur per week aan het verzamelen en analyseren van dealerinformatie.
+
+De Managing Director geeft aan dat hij ongeveer zes uur per week besteedde aan het handmatig bijhouden, verzamelen en verwerken van gegevens in verschillende Excel-bestanden.
+
+Daarnaast blijkt uit de interviews dat bedrijfsinformatie niet altijd direct in de gewenste vorm beschikbaar is. Medewerkers moeten daarom gegevens uit verschillende systemen raadplegen of aanvullende berekeningen uitvoeren om de benodigde inzichten te verkrijgen.
+
+Een ander knelpunt is dat financiële gegevens, verkoopinformatie en marketinggegevens verspreid staan over meerdere bronnen. Hierdoor ontbreekt een centrale omgeving waarin deze informatie gezamenlijk kan worden geanalyseerd.
+
+### 6.3 Informatiebehoeften per afdeling
+
+Uit de interviews blijkt dat de informatiebehoefte binnen TMD Locks verschilt per afdeling. Hoewel meerdere medewerkers gebruikmaken van dezelfde bedrijfsgegevens, hebben zij verschillende doelen bij het analyseren van deze informatie.
+
+De Managing Director heeft voornamelijk behoefte aan een overzicht van de algemene verkoopprestaties. Hierbij ligt de nadruk op het onderscheid tussen B2B- en B2C-verkopen, de vergelijking met de forecast en de kosten van performance marketing. Daarnaast wil hij inzicht hebben in de geografische spreiding van de verkopen en de prestaties per verkoopkanaal.
+
+De Head of Finance richt zich op financiële en commerciële prestaties. Belangrijke informatie is onder andere het aantal verkochte sloten, de verkoopresultaten per land en dealer, marketingkosten en de vergelijking tussen de gerealiseerde verkoop en de forecast. Ook wil hij verkoopgegevens kunnen uitsplitsen naar productvarianten.
+
+De CTO heeft voornamelijk behoefte aan informatie over verkoop- en marketingprestaties. Hierbij wil hij advertentiekosten kunnen vergelijken met B2C-verkopen en inzicht krijgen in de prestaties van verschillende verkoopkanalen, zoals Amazon en de eigen webshop.
+
+De accountmanager B2B Sales richt zich op de prestaties van individuele dealers. Hij wil kunnen zien hoeveel sloten iedere dealer heeft doorverkocht en hoeveel sloten gemiddeld per maand worden verkocht. Daarnaast is inzicht in de voorraadpositie bij dealers belangrijk, zodat tijdig kan worden vastgesteld welke dealers mogelijk een herhaalbestelling nodig hebben.
+
+De Customer Support Manager heeft voornamelijk behoefte aan informatie over voorraadbeheer en verkoophistorie. Hierbij zijn de actuele voorraadstanden, verkochte aantallen per productvariant en meest verkochte producten belangrijk. Daarnaast bestaat de wens om op basis van deze gegevens een besteladvies te kunnen opstellen.
+
+Overeenkomsten en verschillen
+
+Ondanks de verschillende informatiebehoeften komt uit meerdere interviews naar voren dat verkoopgegevens een belangrijke rol spelen. Vooral de Managing Director, Head of Finance en CTO hebben behoefte aan inzicht in verkoopprestaties en de mogelijkheid om deze met andere gegevens te vergelijken.
+
+De accountmanager B2B Sales gebruikt verkoopgegevens voornamelijk om dealerprestaties te beoordelen, terwijl de Customer Support Manager deze informatie gebruikt om voorraadbeheer en inkoopbeslissingen te ondersteunen.
+
+Hieruit blijkt dat de verschillende afdelingen deels dezelfde gegevens nodig hebben, maar deze vanuit verschillende invalshoeken willen analyseren.
+
+### 6.4 Gewenste KPI's en functionaliteiten
+
+Tijdens de interviews is aan de medewerkers gevraagd welke informatie en KPI's zij graag in het Power BI-dashboard willen terugzien.
+
+De genoemde KPI's en functionaliteiten zijn in onderstaande tabel samengevoegd.
 
 
+| KPI of functionaliteit | Genoemd door |
+|---|---|
+| Verkoopaantallen B2B en B2C | Leonard, Arie |
+| Verkoopaantallen per periode | Leonard, Arie, Marnix |
+| Performance-marketingkosten per B2C-slot | Leonard, Arie, Marnix |
+| Forecast versus daadwerkelijke verkoop | Leonard, Arie |
+| Verkoop per kanaal | Leonard, Marnix |
+| Verkoop per land | Leonard, Arie |
+| ROAS | Marnix |
+| Doorverkoop per dealer | Timo, Arie, Marnix |
+| Gemiddelde maandelijkse verkoop per dealer | Timo |
+| Voorraad bij dealers | Timo |
+| Actuele productvoorraad | Gisela |
+| Verkoopaantallen per productvariant | Gisela, Arie |
+| Besteladvies op basis van voorraad en verkoop | Gisela |
 
+Uit dit overzicht blijkt dat meerdere medewerkers behoefte hebben aan vergelijkbare verkoopgegevens. Vooral verkoopaantallen, marketingprestaties en de vergelijking met de forecast komen bij verschillende functies terug.
+
+Daarnaast bestaan er specifieke informatiebehoeften die vooral voor één afdeling relevant zijn. Zo richt B2B Sales zich op de doorverkoop en voorraad bij dealers, terwijl Customer Support behoefte heeft aan actuele productvoorraad en ondersteuning bij inkoopbeslissingen.
 
 
 
@@ -254,3 +315,6 @@ The Open University. (2025). *Conducting an interview*. The Open University. Ger
 |0.18|09-11-2026|- onderzoeks methode |
 |0.2|09-11-2026| - interview vragen |
 |0.21|10-11-2026| - interview 1|
+|0.23|12-11-2026| - interview 2,3|
+|0.23|13-11-2026| - interview 4,5|
+|0.24|14-11-2026| - interview resultaten|
