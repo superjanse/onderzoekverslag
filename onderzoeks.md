@@ -4,7 +4,7 @@
 |---|---|
 | auteur | Hugo Janse |
 | Datum | 01-09-2026 |
-| Versie | 0.24 |
+| Versie | 0.25 |
 | clasievicatie | Intern |
 | client | Leonard Heuker of hoek |
 | Bedrijf | TMD Locks |
@@ -426,3 +426,4 @@ The Open University. (2025). *Conducting an interview*. The Open University. Ger
 |0.23|12-11-2026| - interview 2,3|
 |0.23|13-11-2026| - interview 4,5|
 |0.24|14-11-2026| - interview resultaten|
+|0.25|14-11-2026| - conclusie|
