@@ -4,7 +4,7 @@
 |---|---|
 | auteur | Hugo Janse |
 | Datum | 01-09-2026 |
-| Versie | 0.25 |
+| Versie | 0.26 |
 | clasievicatie | Intern |
 | client | Leonard Heuker of hoek |
 | Bedrijf | TMD Locks |
@@ -57,7 +57,7 @@ Table of Contents
 
 ---
 
-## Introductie 
+## 1. Introductie 
 
 ### 1.1 Aanleiding
 Binnen TMD Locks worden bedrijfsgegevens opgeslagen en beheerd in Exact Online, waaronder verkoopcijvers, voorraadgegevens en onvormatie over de dealers. Deze gegevens zijn belangrijk voor de dagelijkse werkzaamheden van verschillende afdelingen, zoals verkoop, marketing, inkoop en management.
@@ -86,6 +86,7 @@ Op basis van deze informatie wordt een Power BI-dashboard ontwikkeld waarin de r
 
 Daarnaast richt het onderzoek zich op de betrouwbaarheid van de weergegeven cijfers. Hiervoor wordt gecontroleerd of de KPI's binnen Power BI correct worden berekend en overeenkomen met de gegevens uit Exact Online. Hiermee wordt beoogd het risico op fouten door handmatige berekeningen te verminderen en medewerkers te voorzien van betrouwbare informatie.
 
+Het onderzoek richt zich daarmee op het vaststellen van de informatiebehoeften en relevante KPI’s als basis voor het Power BI-dashboard. Hiervoor is inzicht nodig in de afdelingen en belanghebbenden die het dashboard gaan gebruiken of de resultaten ervan ontvangen. Het volgende hoofdstuk beschrijft deze betrokken partijen en hun rol in het onderzoek.
 
 ## 2. Betrokken partijen
 
@@ -386,6 +387,41 @@ Ook kan Power BI bijdragen aan de betrouwbaarheid van de informatievoorziening. 
 
 Geconcludeerd kan worden dat TMD Locks een Power BI-dashboard kan ontwikkelen dat aansluit bij de informatiebehoeften van de verschillende afdelingen door de tijdens de interviews vastgestelde KPI's centraal te stellen. Door bedrijfsgegevens te combineren, berekeningen te automatiseren en de belangrijkste informatie per afdeling overzichtelijk weer te geven, kan het dashboard bijdragen aan een efficiëntere, gebruiksvriendelijkere en betrouwbaardere informatievoorziening.
 
+
+
+## 8. Aanbevelingen
+
+Op basis van de onderzoeksresultaten en de afgenomen interviews wordt aanbevolen om binnen TMD Locks één centraal Power BI-rapport te ontwikkelen, waarin de belangrijkste bedrijfsgegevens en KPI's worden samengebracht.
+
+Uit de interviews is gebleken dat de informatiebehoeften per afdeling verschillen. Daarom is het verstandig om het rapport op te delen in verschillende pagina's, waarbij iedere pagina is ingericht op de werkzaamheden en informatiebehoeften van een specifieke afdeling.
+
+### 8.1 Indeling van het Power BI-dashboard
+
+Voor de inrichting van het Power BI-dashboard wordt voorgesteld om voor iedere afdeling een afzonderlijke pagina te ontwikkelen, waarop de belangrijkste KPI's overzichtelijk worden weergegeven.
+
+Voor de afdeling Sales komt er een algemeen dashboard waarop de totale verkoopprestaties zichtbaar zijn. Hierin worden onder andere de totale verkoopaantallen en de verdeling tussen B2B en B2C opgenomen. Om beide verkoopkanalen uitgebreider te kunnen analyseren, krijgen B2B en B2C daarnaast ieder een eigen pagina met de bijbehorende KPI's.
+
+Een aparte Forecast-pagina biedt inzicht in de voortgang ten opzichte van de verkoopdoelstellingen. Hier worden de daadwerkelijke verkoopresultaten vergeleken met de vooraf opgestelde forecast. Daarbij wordt zichtbaar welk percentage van de doelstelling is behaald, hoeveel sloten nog verkocht moeten worden en hoeveel verkopen er gemiddeld per dag nodig zijn om de forecast te behalen. Zo kan de organisatie eenvoudig beoordelen of de verkopen op schema liggen.
+
+Voor Finance wordt een eigen pagina ingericht waarin de belangrijkste financiële en commerciële gegevens samenkomen. Op deze manier krijgt de afdeling direct inzicht in de KPI's die nodig zijn om de financiële prestaties van TMD Locks te beoordelen.
+
+Ook voorraadbeheer en inkoop krijgen een eigen plek binnen het rapport. Op deze pagina worden de actuele voorraadstanden, historische verkoopaantallen en verkoopontwikkelingen weergegeven. Met deze informatie kan eventueel een voorspelling of besteladvies worden ontwikkeld om beter te bepalen welke producten en aantallen moeten worden ingekocht.
+
+Een afzonderlijke pagina voor de voorraad bij dealers maakt het mogelijk om te zien hoeveel sloten dealers naar schatting nog op voorraad hebben en hoeveel zij hebben doorverkocht. Hierdoor kan B2B Sales sneller bepalen welke dealers mogelijk nieuwe voorraad nodig hebben en wanneer contact kan worden opgenomen voor een herhaalbestelling.
+
+Met deze indeling krijgt iedere afdeling toegang tot de informatie die voor haar werkzaamheden relevant is, terwijl alle bedrijfsgegevens binnen één centrale rapportageomgeving beschikbaar blijven. Doordat de benodigde gegevens en KPI's in Power BI worden samengebracht en berekeningen automatisch worden uitgevoerd, hoeven medewerkers minder gegevens handmatig te verwerken en te berekenen. Dit kan tijd besparen en de kans op menselijke fouten verkleinen. Wanneer de automatische berekeningen correct zijn ingericht en gecontroleerd, draagt dit bij aan een betrouwbaardere en efficiëntere informatievoorziening binnen TMD Locks.
+
+### 8.2 Samenvatting van de aanbevelingen
+
+Samenvattend wordt aanbevolen om één centraal Power BI-rapport te ontwikkelen, waarin iedere afdeling een eigen pagina krijgt met de bijbehorende KPI's en bedrijfsinformatie. Hierdoor kunnen medewerkers de voor hen relevante informatie snel en overzichtelijk terugvinden en de belangrijkste prestaties in één oogopslag beoordelen.
+
+Door de bedrijfsgegevens centraal beschikbaar te maken en berekeningen zoveel mogelijk te automatiseren, kan de tijd die medewerkers besteden aan het handmatig verzamelen en verwerken van informatie worden verminderd. Daarnaast wordt de kans op menselijke fouten bij handmatige berekeningen verkleind, wat bij een correcte inrichting en controle kan bijdragen aan een betrouwbaardere informatievoorziening.
+
+Op deze manier sluit het Power BI-dashboard aan bij de informatiebehoeften die tijdens de interviews naar voren zijn gekomen en kan het de verschillende afdelingen ondersteunen bij hun dagelijkse werkzaamheden en besluitvorming.
+
+
+
+
 ## Bronnen
 
 Damen, R. (2026, 30 april). Hoe werkt Exact Online? Kosten, modules & tips (2026). Virtual Computing. Geraadpleegd op 29 oktober 2026, van https://virtualcomputing.nl/inzichten/hoe-werkt-exact-online
@@ -427,3 +463,4 @@ The Open University. (2025). *Conducting an interview*. The Open University. Ger
 |0.23|13-11-2026| - interview 4,5|
 |0.24|14-11-2026| - interview resultaten|
 |0.25|14-11-2026| - conclusie|
+|0.26|15-11-2026| - aanbeveling|
