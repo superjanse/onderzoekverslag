@@ -136,11 +136,7 @@ Ook analyseert hij de prestaties van B2B- en B2C-verkopen en vergelijkt hij de g
 
 Arie gebruikt Exact Online als belangrijke gegevensbron voor zijn werkzaamheden.
 
-Wanneer specifieke analyses nodig zijn, worden gegevens uit Exact Online gehaald en indien nodig verder verwerkt in Excel.
-
-Daarnaast werd al gebruikgemaakt van een bestaand Power BI-dashboard. Dit dashboard bood echter niet voor iedere gewenste analyse direct de benodigde informatie.
-
-Hierdoor was het soms noodzakelijk om aanvullende gegevens op te zoeken of berekeningen uit te voeren.
+Wanneer specifieke analyses nodig zijn, worden gegevens uit Exact Online gehaald en indien nodig verder verwerkt in Excel. Voor bepaalde informatie moet hij aanvullende gegevens opzoeken of berekeningen uitvoeren.
 
 3. Hoeveel tijd kost het gemiddeld om deze informatie te vinden en eventueel te berekenen?
 

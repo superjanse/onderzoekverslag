@@ -3,8 +3,8 @@
 | Information | Details |
 |---|---|
 | auteur | Hugo Janse |
-| Datum | 01-09-2026 |
-| Versie | 0.26 |
+| Datum | 15-11-2026 |
+| Versie | 1 |
 | clasievicatie | Intern |
 | client | Leonard Heuker of hoek |
 | Bedrijf | TMD Locks |
@@ -39,8 +39,6 @@ Om dit doel te bereiken, wordt onderzocht welke bedrijfsgegevens en Key Performa
 
 Op basis van de onderzoeksresultaten wordt een nieuw Power BI-dashboard ontwikkeld. Hierbij wordt gebruikgemaakt van een iteratieve werkwijze, waarbij het dashboard stapsgewijs wordt ontwikkeld, beoordeeld en verbeterd aan de hand van feedback van gebruikers.
 
-Table of Contents
-
 ## Inhoudsopgave
 
 - [Voorwoord](#voorwoord)
@@ -49,11 +47,32 @@ Table of Contents
   - [1.1 Aanleiding](#11-aanleiding)
   - [1.2 Probleemstelling](#12-probleemstelling)
   - [1.3 Doelstelling](#13-doelstelling)
-- [2. Betrokken partijen](#14-betrokken-partijen)
-- [3. Onderzoeksvragen](#2-onderzoeksvragen)
-  - [3.1 Hoofdonderzoeksvraag](#21-hoofdonderzoeksvraag)
-- [Bronnen](#bronnen)
-- [Versiebeheer](#versiebeheer)
+- [2. Betrokken partijen](#2-betrokken-partijen)
+- [3. Begrippenlijst](#3-begrippenlijst)
+- [4. Onderzoeksvragen](#4-onderzoeksvragen)
+  - [4.1 Hoofdonderzoeksvraag](#41-hoofdonderzoeksvraag)
+  - [4.2 Deelvragen](#42-deelvragen)
+- [5. Onderzoek](#5-onderzoek)
+  - [5.1 Onderzoeksmethode](#51-onderzoeksmethode)
+  - [5.2 Analyse van de interviewresultaten](#52-analyse-van-de-interviewresultaten)
+  - [5.3 Interviewleidraad](#53-interviewleidraad)
+- [6. Resultaten van de interviews](#6-resultaten-van-de-interviews)
+  - [6.1 Huidige werkwijze](#61-huidige-werkwijze)
+  - [6.2 Knelpunten in de huidige werkwijze](#62-knelpunten-in-de-huidige-werkwijze)
+  - [6.3 Informatiebehoeften per afdeling](#63-informatiebehoeften-per-afdeling)
+  - [6.4 Gewenste KPI's en functionaliteiten](#64-gewenste-kpis-en-functionaliteiten)
+  - [6.5 Prioritering van KPI's](#65-prioritering-van-kpis)
+  - [6.6 Samenvatting van de belangrijkste bevindingen](#66-samenvatting-van-de-belangrijkste-bevindingen)
+- [7. Conclusie](#7-conclusie)
+  - [7.1 Deelvraag 1](#71-deelvraag-1)
+  - [7.2 Deelvraag 2](#72-deelvraag-2)
+  - [7.3 Deelvraag 3](#73-deelvraag-3)
+  - [7.4 Beantwoording hoofdonderzoeksvraag](#74-beantwoording-hoofdonderzoeksvraag)
+- [8. Aanbevelingen](#8-aanbevelingen)
+  - [8.1 Indeling van het Power BI-dashboard](#81-indeling-van-het-power-bi-dashboard)
+  - [8.2 Samenvatting van de aanbevelingen](#82-samenvatting-van-de-aanbevelingen)
+- [9. Bronnen](#9-bronnen)
+- [Versiebeheer](#versie-beheer)
 
 ---
 
@@ -96,16 +115,20 @@ De hoofdverantwoordelijken van alle betrokken afdelingen worden geïnterviewd om
 
 In onderstaande tabel worden de betrokken partijen, hun belangen en hun betrokkenheid bij het onderzoek weergegeven.
 
-| Betrokken partij | Belang bij het dashboard | Betrokkenheid bij het onderzoek |
+|| Betrokken partij | Belang bij het dashboard | Betrokkenheid bij het onderzoek |
 |---|---|---|
-| **Management** | Inzicht in omzet, winst, forecasts en algemene bedrijfsprestaties ter ondersteuning van beslissingen. | Opdrachtgever stelt eisen en beoordeelt het dashboard. |
-| **Sales B2B** | Inzicht in dealerprestaties, dealervoorraad, verkochte sloten per dealer en aanwezigheid van demosloten bij winkels. | De hoofdverantwoordelijke wordt geïnterviewd over de gewenste KPI's en informatiebehoeften. |
-| **Sales B2C** | Inzicht in verkoopcijfers via onder andere Amazon en Decathlon, verkoopontwikkelingen en de beschikbare interne magazijnvoorraad. | De hoofdverantwoordelijke wordt geïnterviewd over de gewenste verkoop- en voorraadgegevens. |
-| **Marketing** | Inzicht in advertentiekosten, advertentiekosten per verkocht slot en verkoopontwikkelingen. | De hoofdverantwoordelijke wordt geïnterviewd over relevante marketing-KPI's. |
-| **Inkoop en logistiek** | Inzicht in actuele voorraadniveaus, beschikbare sloten en verwachte leveringen. | De hoofdverantwoordelijken worden geïnterviewd over de benodigde voorraad- en leveringsinformatie. |
-| **Investeerders** | Inzicht in omzet, winst, verkoopprestaties en de voortgang ten opzichte van forecasts. | Indirect betrokken. Ontvangen relevante bedrijfsresultaten via presentaties of screenshots, zonder dagelijkse toegang tot het dashboard. |
+| **Management** | Inzicht in omzet, winst, forecasts en algemene bedrijfsprestaties ter ondersteuning van beslissingen. | De opdrachtgever is geïnterviewd over zijn informatiebehoeften, gewenste KPI’s en verwachtingen van het dashboard. Op basis van het onderzoeksrapport beslist hij welke voorgestelde KPI’s en functionaliteiten worden opgenomen en welke prioriteit krijgen. |
+| **Sales B2B** | Inzicht in dealerprestaties, dealervoorraad, verkochte sloten per dealer en aanwezigheid van demosloten bij winkels. | Levert via de interviews informatie over de gewenste KPI’s en informatiebehoeften rondom dealers en B2B-verkoop. |
+| **Sales B2C** | Inzicht in verkoopcijfers via onder andere Amazon en Decathlon, verkoopontwikkelingen en de beschikbare interne magazijnvoorraad. | De informatiebehoeften rondom B2C-verkoop en voorraad worden in de interviews onderzocht. |
+| **Marketing** | Inzicht in advertentiekosten, advertentiekosten per verkocht slot en verkoopontwikkelingen. | De interviews brengen de informatiebehoeften rondom marketingprestaties en relevante marketing-KPI’s in kaart. |
+| **Inkoop en logistiek** | Inzicht in actuele voorraadniveaus, beschikbare sloten en verwachte leveringen. | De interviews brengen de benodigde voorraad- en leveringsinformatie en de wensen voor ondersteuning bij inkoopbeslissingen in kaart. |
+| **Investeerders** | Inzicht in omzet, winst, verkoopprestaties en de voortgang ten opzichte van forecasts. | Zijn indirect betrokken. Ontvangen relevante bedrijfsresultaten via presentaties of screenshots, zonder dagelijkse toegang tot het dashboard. |
+
+De betrokken partijen hebben ieder eigen informatiebehoeften en belangen bij het dashboard. Op basis van de interviews wordt in dit onderzoeksrapport een voorstel gedaan voor de KPI’s en functionaliteiten van het dashboard. Dit voorstel wordt voorgelegd aan de opdrachtgever, die naar aanleiding van het onderzoeksrapport beslist welke KPI’s en functionaliteiten worden opgenomen en welke prioriteit krijgen. Zo vormen de informatiebehoeften van de verschillende afdelingen de basis voor deze beslissing.
 
 ## 3. Begrippenlijst
+
+In dit hoofdstuk worden de belangrijkste begrippen uit het onderzoeksrapport toegelicht. De begrippen hebben betrekking op bedrijfsinformatie, data-analyse en het Power BI-dashboard. De onderstaande tabel geeft per begrip de betekenis en de bijbehorende bron.
 
 | Begrip | Betekenis |Bron|
 |---|---|---|
@@ -119,48 +142,49 @@ In onderstaande tabel worden de betrokken partijen, hun belangen en hun betrokke
 | **B2B (Business-to-Business)** | Verkoop van producten of diensten aan andere bedrijven, zoals dealers en winkels. |(Wat Is het Verschil Tussen B2B en B2C? - Schot, 2026)|
 | **B2C (Business-to-Consumer)** | Verkoop van producten of diensten aan consumenten, bijvoorbeeld via webshops. |(Wat Is het Verschil Tussen B2B en B2C? - Schot, 2026)|
 | **Forecast** | Een prognose van toekomstige bedrijfsresultaten, bijvoorbeeld de verwachte omzet of verkoopcijfers. |(De Snoo, 2026)|
-
-
+| **ROAS (Return on Ad Spend)** | De aan advertenties toegeschreven omzet gedeeld door de advertentiekosten. Deze verhouding laat zien hoeveel omzet iedere bestede advertentie-euro oplevert. | Over doel-ROAS-biedingen - Google Ads help. (z.d.). Geraadpleegd op 15 november 2026, van https://support.google.com/google-ads/answer/6268637?hl=nl |
+| **Performance marketing** | Een vorm van online marketing die gericht is op meetbare resultaten, zoals klikken, aanvragen of verkopen. Campagnes worden beoordeeld en bijgestuurd op basis van deze resultaten. |Performance Marketing: A Beginner’s Guide (2026) - Shopify. (2026, 5 november). Shopify. Geraadpleegd op 15 november 2026, van https://www.shopify.com/blog/performance-marketing|
 
 ## 4. Onderzoeksvragen
 
+Dit hoofdstuk beschrijft de hoofdvraag en deelvragen van het onderzoek. De vragen richten zich op de huidige werkwijze en knelpunten, de informatiebehoeften van de verschillende afdelingen en de gewenste presentatie van bedrijfsgegevens en KPI’s. De antwoorden vormen de basis voor een voorstel voor het Power BI-dashboard.
 
 ### 4.1 Hoofdonderzoeksvraag
 
-Hoe kan TMD Locks een Power BI-dashboard ontwikkelen dat aansluit bij de informatiebehoeften en relevante KPI's van de verschillende afdelingen, en deze overzichtelijk, betrouwbaar en gebruiksvriendelijk presenteert?
+Welke bedrijfsgegevens, KPI’s en presentatie-eisen moet TMD Locks opnemen in een voorstel voor een Power BI-dashboard dat aansluit bij de informatiebehoeften van de verschillende afdelingen?
 
-### 4.2 deelvragen 
+### 4.2 Deelvragen 
 1. Hoe verzamelen en analyseren medewerkers van TMD Locks momenteel bedrijfsinformatie en welke knelpunten ervaren zij hierbij?
 
 2. Welke bedrijfsgegevens en KPI's zijn voor de verschillende afdelingen binnen TMD Locks het belangrijkst om hun werkzaamheden uit te voeren en beslissingen te ondersteunen?
 
 3.  Welke eisen en wensen hebben medewerkers ten aanzien van de overzichtelijkheid en presentatie van bedrijfsgegevens en KPI's?
 
+Samen geven de deelvragen richting aan het onderzoek en helpen zij om de hoofdvraag te beantwoorden. Het volgende hoofdstuk beschrijft de onderzoeksmethode waarmee de benodigde informatie wordt verzameld en geanalyseerd.
 
 ## 5. Onderzoek
 
+Dit hoofdstuk beschrijft de onderzoeksmethode waarmee de informatiebehoeften van de verschillende afdelingen binnen TMD Locks in kaart zijn gebracht. Eerst wordt toegelicht hoe de interviews zijn uitgevoerd. Daarna wordt beschreven hoe de antwoorden zijn geanalyseerd en gebruikt voor het voorstel voor het Power BI-dashboard. Tot slot wordt de interviewleidraad weergegeven.
+
 ### 5.1 Onderzoeksmethode
 
-Interviews
-
-Om de informatiebehoeften van de verschillende afdelingen binnen TMD Locks in kaart te brengen, wordt gebruikgemaakt van semigestructureerde interviews. Hiervoor worden de hoofdverantwoordelijken van de betrokken afdelingen geïnterviewd.
+Om de informatiebehoeften van de verschillende afdelingen binnen TMD Locks in kaart te brengen, is gebruikgemaakt van semigestructureerde interviews. Hiervoor zijn vijf medewerkers geïnterviewd, onder wie de opdrachtgever.
 
 Bij een semigestructureerd interview wordt gewerkt met een vooraf opgestelde vragenlijst, waarbij ruimte blijft om aanvullende vragen te stellen en dieper in te gaan op de antwoorden van de geïnterviewde. Deze methode maakt het mogelijk om de resultaten van verschillende interviews met elkaar te vergelijken, terwijl er tegelijkertijd aandacht kan worden besteed aan de specifieke werkzaamheden en informatiebehoeften van iedere afdeling.
 
-Voor dit onderzoek wordt één algemene interviewleidraad opgesteld, die waar nodig wordt aangevuld met afdelingsspecifieke vragen. Tijdens de interviews wordt onderzocht welke bedrijfsgegevens medewerkers momenteel gebruiken, waarvoor zij Exact Online gebruiken, welke knelpunten zij ervaren en welke KPI's voor hun werkzaamheden belangrijk zijn. Daarnaast wordt besproken hoe zij deze informatie het liefst terugzien in het nieuwe Power BI-dashboard.
+Voor dit onderzoek is één algemene interviewleidraad opgesteld, met ruimte voor afdelingsspecifieke vragen. Tijdens de interviews is onderzocht welke bedrijfsgegevens medewerkers gebruiken, waarvoor zij Exact Online gebruiken, welke knelpunten zij ervaren en welke KPI's voor hun werkzaamheden belangrijk zijn. Daarnaast is gevraagd welke informatie zij het belangrijkst vinden om in één oogopslag te kunnen zien.
 
-De resultaten van de interviews worden gebruikt om de informatiebehoeften per afdeling vast te stellen en de belangrijkste KPI's en eisen voor het Power BI-dashboard te selecteren.
+De resultaten van de interviews worden gebruikt om de informatiebehoeften per afdeling vast te stellen en een voorstel te doen voor de belangrijkste KPI's en eisen voor het Power BI-dashboard.
 
-#### Analyse van de interviewresultaten
+### 5.2 Analyse van de interviewresultaten
 
-Na het afnemen van de interviews worden de antwoorden per afdeling verzameld en geanalyseerd. Hierbij wordt gekeken naar de huidige informatiebehoeften, ervaren knelpunten en gewenste KPI's.
+Na het afnemen van de interviews zijn de antwoorden per afdeling verzameld en geanalyseerd. Hierbij is gekeken naar de informatiebehoeften, ervaren knelpunten en gewenste KPI's.
 
-De resultaten worden vervolgens samengevoegd tot één overzicht waarin de belangrijkste KPI's en wensen van de verschillende afdelingen worden opgenomen.
+De resultaten zijn vervolgens samengevoegd tot één overzicht waarin de belangrijkste KPI's en wensen van de verschillende afdelingen zijn opgenomen.
 
-Het overzicht met de verzamelde KPI's en informatiebehoeften wordt voorgelegd aan de opdrachtgever, Leonard Heuker of Hoek. Tijdens dit gesprek worden de onderzoeksresultaten besproken en bepaalt de opdrachtgever welke KPI's en functionaliteiten de hoogste prioriteit krijgen.
+Op basis van deze resultaten wordt in dit onderzoeksrapport een voorstel gedaan voor de KPI's, functionaliteiten en presentatie van het Power BI-dashboard. Het onderzoeksrapport wordt voorgelegd aan de opdrachtgever, Leonard Heuker of Hoek. Naar aanleiding van dit rapport beslist de opdrachtgever welke voorgestelde KPI's en functionaliteiten worden opgenomen en welke prioriteit krijgen.
 
-Op basis van deze prioritering worden de definitieve eisen voor het Power BI-dashboard vastgesteld.
-
+### 5.3 Interviewleidraad
 
 **Doel:** Onderzoeken welke bedrijfsinformatie medewerkers momenteel gebruiken, welke KPI's zij belangrijk vinden en wat zij verwachten van het nieuwe Power BI-dashboard.
 
@@ -168,7 +192,7 @@ Op basis van deze prioritering worden de definitieve eisen voor het Power BI-das
 
 **1. Huidige informatie**
 
-Welke bedrijfsinformatie uit exact online gebruik je momenteel het meest voor je werkzaamheden?
+Welke bedrijfsinformatie uit Exact Online gebruik je momenteel het meest voor je werkzaamheden?
 
 **2. Huidige werkwijze**
 
@@ -186,6 +210,7 @@ Welke informatie en KPI's zou je graag terugzien in het nieuwe Power BI-dashboar
 
 Welke drie gegevens of KPI's zijn voor jou het belangrijkst om in één oogopslag te kunnen zien?
 
+De interviews en de analyse van de antwoorden vormen de basis voor het beantwoorden 
 
 ## 6. Resultaten van de interviews
 
@@ -290,28 +315,10 @@ De antwoorden zijn samengevoegd in onderstaande tabel.
 
 Uit de resultaten blijkt dat verkoopaantallen voor meerdere medewerkers een belangrijke KPI vormen. Daarnaast worden marketingprestaties en de vergelijking met de forecast door verschillende medewerkers genoemd.
 
-Om te voorkomen dat het Power BI-dashboard te veel informatie tegelijkertijd toont, wordt bij de ontwikkeling rekening gehouden met deze prioriteiten. De belangrijkste KPI's krijgen een prominente plaats op de bijbehorende dashboardpagina's. Overige informatie kan op onderliggende pagina's worden weergegeven.
+Om te voorkomen dat het Power BI-dashboard te veel informatie tegelijkertijd toont, wordt in het voorstel rekening gehouden met deze prioriteiten. Voorgesteld wordt om de belangrijkste KPI's een prominente plaats op de bijbehorende dashboardpagina's te geven. Overige informatie kan op onderliggende pagina's worden weergegeven.
 
-De uiteindelijke selectie en ontwikkelvolgorde van de KPI's worden afgestemd met de opdrachtgever.
+De opdrachtgever beslist op basis van het onderzoeksrapport welke voorgestelde KPI's worden opgenomen en welke prioriteit krijgen.
 
-### 6.6 Samenvatting van de belangrijkste bevindingen
-
-Op basis van de vijf interviews komen drie belangrijke bevindingen naar voren.
-
-1. Bedrijfsinformatie is verspreid over verschillende systemen.
-
-Medewerkers gebruiken onder andere Exact Online, Shopify en Excel om de benodigde informatie te verzamelen. Hierdoor moeten gegevens regelmatig handmatig worden gecombineerd en vergeleken.
-
-2. De informatiebehoefte verschilt per afdeling.
-
-Hoewel meerdere medewerkers dezelfde verkoopgegevens gebruiken, verschilt de manier waarop zij deze willen analyseren. Het management richt zich op de algemene bedrijfsprestaties, terwijl andere afdelingen specifieke inzichten nodig hebben voor hun dagelijkse werkzaamheden.
-
-3. Er bestaat behoefte aan centraal beschikbare en overzichtelijke bedrijfsinformatie.
-
-Uit meerdere interviews blijkt dat medewerkers gegevens sneller willen kunnen raadplegen, vergelijken en analyseren. Het samenbrengen van de benodigde informatie in Power BI kan bijdragen aan het verminderen van handmatige werkzaamheden en het verbeteren van de informatievoorziening.
-
-Deze bevindingen vormen de basis voor het vaststellen van de eisen en wensen voor het Power BI-dashboard.
-## of 
 ### 6.6 Samenvatting van de belangrijkste bevindingen
 
 Uit de vijf interviews blijkt dat medewerkers van TMD Locks
@@ -328,19 +335,17 @@ De interviews laten zien dat er behoefte is aan een centrale
 en overzichtelijke omgeving waarin belangrijke bedrijfsgegevens
 en KPI's toegankelijk zijn.
 
-Deze resultaten vormen de basis voor het vaststellen van
-de eisen en wensen voor het Power BI-dashboard.
+Deze resultaten vormen de basis voor het voorstel voor de KPI's, functionaliteiten en presentatie van het Power BI-dashboard.
 
 
 ## 7. Conclusie
-
-Naar aanleiding van de vijf afgenomen interviews met medewerkers van TMD Locks kunnen de eerste twee deelvragen van dit onderzoek worden beantwoord. De interviews hebben inzicht gegeven in de huidige werkwijze, de knelpunten bij het verzamelen en analyseren van bedrijfsinformatie en de belangrijkste informatiebehoeften van de verschillende afdelingen.
+Naar aanleiding van de vijf afgenomen interviews met medewerkers van TMD Locks worden in dit hoofdstuk de drie deelvragen en de hoofdonderzoeksvraag beantwoord. De interviews hebben inzicht gegeven in de huidige werkwijze, de knelpunten bij het verzamelen en analyseren van bedrijfsinformatie en de belangrijkste informatiebehoeften van de verschillende afdelingen. Deze inzichten vormen de basis voor een voorstel voor het Power BI-dashboard.
 
 ### 7.1 Deelvraag 1
 
 Hoe verzamelen en analyseren medewerkers van TMD Locks momenteel bedrijfsinformatie en welke knelpunten ervaren zij hierbij?
 
-Uit de interviews blijkt dat medewerkers van TMD Locks voornamelijk gebruikmaken van Exact Online, Excel en Shopify om bedrijfsinformatie te verzamelen en te analyseren. Welke systemen worden gebruikt, verschilt per afdeling en de informatie die medewerkers nodig hebben.
+Uit de interviews blijkt dat medewerkers van TMD Locks voornamelijk gebruikmaken van Exact Online, Excel en Shopify om bedrijfsinformatie te verzamelen en te analyseren. Welke systemen worden gebruikt, hangt af van de afdeling en de informatie die medewerkers nodig hebben.
 
 Een belangrijk knelpunt is dat de benodigde informatie verspreid staat over verschillende systemen en bestanden. Hierdoor moeten medewerkers regelmatig gegevens handmatig verzamelen, combineren en vergelijken om de gewenste inzichten te verkrijgen.
 
@@ -362,67 +367,69 @@ Geconcludeerd kan worden dat het Power BI-dashboard zowel gezamenlijke als afdel
 
 ### 7.3 Deelvraag 3
 
+Welke eisen en wensen hebben medewerkers ten aanzien van de overzichtelijkheid en presentatie van bedrijfsgegevens en KPI's?
 
 Uit de interviews blijkt dat medewerkers van TMD Locks momenteel regelmatig gebruikmaken van tabellen en Excel-bestanden om bedrijfsgegevens te bekijken en te analyseren. Hierbij moeten gegevens soms handmatig worden verwerkt of met elkaar worden vergeleken.
 
 De geïnterviewde medewerkers hebben voornamelijk behoefte aan een overzichtelijke en gestructureerde weergave van de belangrijkste bedrijfsinformatie. Hierbij is het belangrijk dat relevante KPI's direct zichtbaar zijn, zonder dat medewerkers eerst verschillende bestanden of uitgebreide tabellen hoeven te doorzoeken.
 
-Tijdens de interviews lag de nadruk voornamelijk op welke informatie medewerkers nodig hebben en welke KPI's zij het belangrijkst vinden. Er zijn geen specifieke voorkeuren voor grafiektypen of visualisaties vastgesteld.
+Tijdens de interviews lag de nadruk voornamelijk op welke informatie medewerkers nodig hebben en welke KPI's zij het belangrijkst vinden. In de interviewverslagen zijn geen specifieke voorkeuren voor grafiektypen of visualisaties vastgelegd.
 
 Op basis hiervan kan worden geconcludeerd dat het Power BI-dashboard vooral moet worden ingericht rondom de informatiebehoeften en prioriteiten van de verschillende afdelingen. De belangrijkste KPI's moeten in één oogopslag zichtbaar zijn, terwijl aanvullende informatie op een gestructureerde manier toegankelijk blijft.
 
 ### 7.4 Beantwoording hoofdonderzoeksvraag
 
-Hoe kan TMD Locks een Power BI-dashboard ontwikkelen dat aansluit bij de informatiebehoeften en relevante KPI's van de verschillende afdelingen, en deze overzichtelijk, betrouwbaar en gebruiksvriendelijk presenteert?
+Welke bedrijfsgegevens, KPI’s en presentatie-eisen moet TMD Locks opnemen in een voorstel voor een Power BI-dashboard dat aansluit bij de informatiebehoeften van de verschillende afdelingen?
 
-Uit het onderzoek blijkt dat medewerkers van TMD Locks momenteel bedrijfsinformatie verzamelen en analyseren via verschillende systemen, waaronder Exact Online, Shopify en Excel. Hierbij worden gegevens regelmatig handmatig bijgehouden, gecombineerd en vergeleken. Deze werkwijze kost tijd en vergroot de kans op fouten bij het verwerken van gegevens.
+Uit het onderzoek blijkt dat medewerkers van TMD Locks momenteel bedrijfsinformatie verzamelen en analyseren via verschillende systemen, waaronder Exact Online, Shopify en Excel. Hierbij worden gegevens regelmatig handmatig bijgehouden, gecombineerd en vergeleken. Deze werkwijze kost tijd. Er bestaat daarom behoefte aan een centrale omgeving waarin de belangrijkste bedrijfsinformatie overzichtelijk beschikbaar is.
 
-Door gebruik te maken van Power BI kunnen deze werkzaamheden gedeeltelijk worden geautomatiseerd. Bedrijfsgegevens kunnen vanuit verschillende bronnen worden samengebracht in één centrale omgeving, waardoor medewerkers minder afhankelijk worden van afzonderlijke Excel-bestanden en handmatige berekeningen.
+Tijdens de interviews zijn de belangrijkste informatiebehoeften en KPI's van de verschillende afdelingen vastgesteld. Vooral verkoopaantallen, uitgesplitst naar B2B en B2C, de vergelijking tussen gerealiseerde verkoop en forecast en de performance-marketingkosten per verkocht B2C-slot worden door meerdere medewerkers belangrijk gevonden. Voorgesteld wordt om deze onderdelen op te nemen in het Power BI-dashboard.
 
-Tijdens de interviews zijn de belangrijkste informatiebehoeften en KPI's van de verschillende afdelingen vastgesteld. Door deze KPI's als uitgangspunt te nemen bij de ontwikkeling van het dashboard, kan de informatie worden afgestemd op de werkzaamheden van de gebruikers.
+Daarnaast hebben de verschillende afdelingen specifieke informatiebehoeften. Voor B2B Sales zijn de doorverkoop per dealer, de gemiddelde maandelijkse doorverkoop en de voorraadpositie bij dealers belangrijk. Voor Customer Support ligt de nadruk op actuele productvoorraad, verkoophistorie en besteladvies. Ook verkoopgegevens per periode, land, verkoopkanaal en productvariant en inzicht in ROAS worden meegenomen in het voorstel.
 
-Daarnaast blijkt uit de interviews dat medewerkers behoefte hebben aan een duidelijke en gestructureerde weergave van bedrijfsinformatie. Door de belangrijkste KPI's per afdeling centraal en overzichtelijk te presenteren, kunnen medewerkers sneller inzicht krijgen in de bedrijfsprestaties.
+Uit de interviews blijkt daarnaast dat medewerkers behoefte hebben aan een duidelijke en gestructureerde weergave van bedrijfsinformatie. Daarom wordt voorgesteld om de belangrijkste KPI's per afdeling direct zichtbaar te maken op de bijbehorende dashboardpagina's. Aanvullende informatie kan op onderliggende pagina's worden weergegeven. In de interviewverslagen zijn geen specifieke voorkeuren voor grafiektypen of visualisaties vastgelegd.
 
-Ook kan Power BI bijdragen aan de betrouwbaarheid van de informatievoorziening. Door berekeningen op een consistente en geautomatiseerde manier uit te voeren, wordt de kans op fouten door handmatige verwerking verkleind. Hierbij blijft het noodzakelijk dat de gegevenskoppelingen en berekeningen correct worden ingericht en gecontroleerd aan de hand van de oorspronkelijke gegevens uit Exact Online.
-
-Geconcludeerd kan worden dat TMD Locks een Power BI-dashboard kan ontwikkelen dat aansluit bij de informatiebehoeften van de verschillende afdelingen door de tijdens de interviews vastgestelde KPI's centraal te stellen. Door bedrijfsgegevens te combineren, berekeningen te automatiseren en de belangrijkste informatie per afdeling overzichtelijk weer te geven, kan het dashboard bijdragen aan een efficiëntere, gebruiksvriendelijkere en betrouwbaardere informatievoorziening.
-
+Geconcludeerd kan worden dat het voorstel voor het Power BI-dashboard zowel gezamenlijke als afdelingsspecifieke bedrijfsgegevens en KPI's moet bevatten. Door de informatiebehoeften en prioriteiten van medewerkers als uitgangspunt te nemen, kan de presentatie worden afgestemd op hun werkzaamheden. De opdrachtgever beslist op basis van dit onderzoeksrapport welke voorgestelde KPI's en functionaliteiten worden opgenomen en welke prioriteit krijgen.
 
 
 ## 8. Aanbevelingen
 
 Op basis van de onderzoeksresultaten en de afgenomen interviews wordt aanbevolen om binnen TMD Locks één centraal Power BI-rapport te ontwikkelen, waarin de belangrijkste bedrijfsgegevens en KPI's worden samengebracht.
 
-Uit de interviews is gebleken dat de informatiebehoeften per afdeling verschillen. Daarom is het verstandig om het rapport op te delen in verschillende pagina's, waarbij iedere pagina is ingericht op de werkzaamheden en informatiebehoeften van een specifieke afdeling.
+Uit de interviews is gebleken dat de informatiebehoeften per afdeling verschillen. Daarom wordt voorgesteld om het rapport op te delen in verschillende pagina's per afdeling en onderwerp. Iedere pagina wordt daarbij afgestemd op de werkzaamheden en informatiebehoeften van de betreffende gebruikers.
 
 ### 8.1 Indeling van het Power BI-dashboard
 
-Voor de inrichting van het Power BI-dashboard wordt voorgesteld om voor iedere afdeling een afzonderlijke pagina te ontwikkelen, waarop de belangrijkste KPI's overzichtelijk worden weergegeven.
+Voor de inrichting van het Power BI-dashboard worden afzonderlijke pagina's per afdeling en onderwerp voorgesteld, waarop de belangrijkste KPI's overzichtelijk worden weergegeven.
 
-Voor de afdeling Sales komt er een algemeen dashboard waarop de totale verkoopprestaties zichtbaar zijn. Hierin worden onder andere de totale verkoopaantallen en de verdeling tussen B2B en B2C opgenomen. Om beide verkoopkanalen uitgebreider te kunnen analyseren, krijgen B2B en B2C daarnaast ieder een eigen pagina met de bijbehorende KPI's.
+Voor de afdeling Sales wordt een algemene overzichtspagina voorgesteld waarop de totale verkoopprestaties zichtbaar zijn. Hierin worden onder andere de totale verkoopaantallen en de verdeling tussen B2B en B2C opgenomen. Om beide verkooptypen uitgebreider te kunnen analyseren, wordt voorgesteld om B2B en B2C daarnaast ieder een eigen pagina te geven met de bijbehorende KPI's.
 
-Een aparte Forecast-pagina biedt inzicht in de voortgang ten opzichte van de verkoopdoelstellingen. Hier worden de daadwerkelijke verkoopresultaten vergeleken met de vooraf opgestelde forecast. Daarbij wordt zichtbaar welk percentage van de doelstelling is behaald, hoeveel sloten nog verkocht moeten worden en hoeveel verkopen er gemiddeld per dag nodig zijn om de forecast te behalen. Zo kan de organisatie eenvoudig beoordelen of de verkopen op schema liggen.
+Op de B2C-pagina wordt voorgesteld om ook de performance-marketingkosten per verkocht B2C-slot, ROAS en de verkoopprestaties per verkoopkanaal weer te geven. Daarmee biedt deze pagina inzicht in zowel verkoop- als marketingprestaties.
 
-Voor Finance wordt een eigen pagina ingericht waarin de belangrijkste financiële en commerciële gegevens samenkomen. Op deze manier krijgt de afdeling direct inzicht in de KPI's die nodig zijn om de financiële prestaties van TMD Locks te beoordelen.
+Een aparte forecastpagina wordt voorgesteld om inzicht te geven in de voortgang ten opzichte van de verkoopdoelstellingen. Hier worden de daadwerkelijke verkoopresultaten vergeleken met de vooraf opgestelde forecast. Als verdere uitwerking wordt voorgesteld om het behaalde percentage van de doelstelling, het resterende aantal te verkopen sloten en het benodigde gemiddelde aantal verkopen per resterende dag van de forecastperiode te tonen. Zo kan de organisatie beoordelen of de verkopen op schema liggen.
 
-Ook voorraadbeheer en inkoop krijgen een eigen plek binnen het rapport. Op deze pagina worden de actuele voorraadstanden, historische verkoopaantallen en verkoopontwikkelingen weergegeven. Met deze informatie kan eventueel een voorspelling of besteladvies worden ontwikkeld om beter te bepalen welke producten en aantallen moeten worden ingekocht.
+Voor Finance wordt een eigen pagina voorgesteld waarin de belangrijkste financiële en commerciële gegevens samenkomen. Op deze manier krijgt de afdeling inzicht in de KPI's die nodig zijn om de prestaties van TMD Locks te beoordelen, zoals maandelijkse verkoopaantallen, de verdeling tussen B2B en B2C en de vergelijking met de forecast.
 
-Een afzonderlijke pagina voor de voorraad bij dealers maakt het mogelijk om te zien hoeveel sloten dealers naar schatting nog op voorraad hebben en hoeveel zij hebben doorverkocht. Hierdoor kan B2B Sales sneller bepalen welke dealers mogelijk nieuwe voorraad nodig hebben en wanneer contact kan worden opgenomen voor een herhaalbestelling.
+Ook voor voorraadbeheer en inkoop wordt een eigen pagina voorgesteld. Op deze pagina worden de actuele voorraadstanden, historische verkoopaantallen en verkoopontwikkelingen weergegeven. Met deze informatie kan eventueel een besteladvies worden ontwikkeld om beter te bepalen welke producten en aantallen moeten worden ingekocht.
 
-Met deze indeling krijgt iedere afdeling toegang tot de informatie die voor haar werkzaamheden relevant is, terwijl alle bedrijfsgegevens binnen één centrale rapportageomgeving beschikbaar blijven. Doordat de benodigde gegevens en KPI's in Power BI worden samengebracht en berekeningen automatisch worden uitgevoerd, hoeven medewerkers minder gegevens handmatig te verwerken en te berekenen. Dit kan tijd besparen en de kans op menselijke fouten verkleinen. Wanneer de automatische berekeningen correct zijn ingericht en gecontroleerd, draagt dit bij aan een betrouwbaardere en efficiëntere informatievoorziening binnen TMD Locks.
+Een afzonderlijke pagina voor de voorraad bij dealers wordt voorgesteld om te laten zien hoeveel sloten dealers naar schatting nog op voorraad hebben en hoeveel zij hebben doorverkocht. Hierdoor kan B2B Sales sneller bepalen welke dealers mogelijk nieuwe voorraad nodig hebben en wanneer contact kan worden opgenomen voor een herhaalbestelling.
+
+Met deze indeling krijgt iedere afdeling toegang tot de informatie die voor haar werkzaamheden relevant is, terwijl de benodigde bedrijfsgegevens binnen één centrale rapportageomgeving beschikbaar zijn. Door gegevens en KPI's in Power BI samen te brengen en berekeningen te automatiseren, kunnen handmatige werkzaamheden worden verminderd. Wanneer de gegevens en berekeningen correct zijn ingericht en gecontroleerd, kan dit bijdragen aan een betrouwbaardere en efficiëntere informatievoorziening binnen TMD Locks.
 
 ### 8.2 Samenvatting van de aanbevelingen
 
-Samenvattend wordt aanbevolen om één centraal Power BI-rapport te ontwikkelen, waarin iedere afdeling een eigen pagina krijgt met de bijbehorende KPI's en bedrijfsinformatie. Hierdoor kunnen medewerkers de voor hen relevante informatie snel en overzichtelijk terugvinden en de belangrijkste prestaties in één oogopslag beoordelen.
+Samenvattend wordt aanbevolen om één centraal Power BI-rapport te ontwikkelen met pagina's per afdeling en onderwerp. Op deze pagina's worden de bijbehorende KPI's en bedrijfsgegevens overzichtelijk weergegeven. Hierdoor kunnen medewerkers de voor hen relevante informatie snel terugvinden en de belangrijkste prestaties in één oogopslag beoordelen.
 
-Door de bedrijfsgegevens centraal beschikbaar te maken en berekeningen zoveel mogelijk te automatiseren, kan de tijd die medewerkers besteden aan het handmatig verzamelen en verwerken van informatie worden verminderd. Daarnaast wordt de kans op menselijke fouten bij handmatige berekeningen verkleind, wat bij een correcte inrichting en controle kan bijdragen aan een betrouwbaardere informatievoorziening.
+Door de bedrijfsgegevens centraal beschikbaar te maken en berekeningen zoveel mogelijk te automatiseren, kan de tijd die medewerkers besteden aan het handmatig verzamelen en verwerken van informatie worden verminderd. Daarnaast kan dit bij een correcte inrichting en controle de kans op fouten door handmatige berekeningen verkleinen.
 
-Op deze manier sluit het Power BI-dashboard aan bij de informatiebehoeften die tijdens de interviews naar voren zijn gekomen en kan het de verschillende afdelingen ondersteunen bij hun dagelijkse werkzaamheden en besluitvorming.
+Op deze manier sluit het voorstel voor het Power BI-dashboard aan bij de informatiebehoeften die tijdens de interviews naar voren zijn gekomen en kan het de verschillende afdelingen ondersteunen bij hun dagelijkse werkzaamheden en besluitvorming.
+
+De opdrachtgever beslist op basis van dit onderzoeksrapport welke aanbevelingen worden overgenomen en welke onderdelen als eerste worden uitgewerkt.
 
 
 
 
-## Bronnen
+## 9. Bronnen
 
 Damen, R. (2026, 30 april). Hoe werkt Exact Online? Kosten, modules & tips (2026). Virtual Computing. Geraadpleegd op 29 oktober 2026, van https://virtualcomputing.nl/inzichten/hoe-werkt-exact-online
 
@@ -464,3 +471,4 @@ The Open University. (2025). *Conducting an interview*. The Open University. Ger
 |0.24|14-11-2026| - interview resultaten|
 |0.25|14-11-2026| - conclusie|
 |0.26|15-11-2026| - aanbeveling|
+|1|15-11-2026| - eerste versie|
