@@ -142,8 +142,8 @@ In dit hoofdstuk worden de belangrijkste begrippen uit het onderzoeksrapport toe
 | **B2B (Business-to-Business)** | Verkoop van producten of diensten aan andere bedrijven, zoals dealers en winkels. |(Wat Is het Verschil Tussen B2B en B2C? - Schot, 2026)|
 | **B2C (Business-to-Consumer)** | Verkoop van producten of diensten aan consumenten, bijvoorbeeld via webshops. |(Wat Is het Verschil Tussen B2B en B2C? - Schot, 2026)|
 | **Forecast** | Een prognose van toekomstige bedrijfsresultaten, bijvoorbeeld de verwachte omzet of verkoopcijfers. |(De Snoo, 2026)|
-| **ROAS (Return on Ad Spend)** | De aan advertenties toegeschreven omzet gedeeld door de advertentiekosten. Deze verhouding laat zien hoeveel omzet iedere bestede advertentie-euro oplevert. | Over doel-ROAS-biedingen - Google Ads help. (z.d.). Geraadpleegd op 15 november 2026, van https://support.google.com/google-ads/answer/6268637?hl=nl |
-| **Performance marketing** | Een vorm van online marketing die gericht is op meetbare resultaten, zoals klikken, aanvragen of verkopen. Campagnes worden beoordeeld en bijgestuurd op basis van deze resultaten. |Performance Marketing: A Beginner’s Guide (2026) - Shopify. (2026, 5 november). Shopify. Geraadpleegd op 15 november 2026, van https://www.shopify.com/blog/performance-marketing|
+| **ROAS (Return on Ad Spend)** | De aan advertenties toegeschreven omzet gedeeld door de advertentiekosten. Deze verhouding laat zien hoeveel omzet iedere bestede advertentie-euro oplevert. | (Over doel-ROAS-biedingen - Google Ads Help, z.d.-b)|
+| **Performance marketing** | Een vorm van online marketing die gericht is op meetbare resultaten, zoals klikken, aanvragen of verkopen. Campagnes worden beoordeeld en bijgestuurd op basis van deze resultaten. |(Performance Marketing: A Beginner’s Guide (2026) - Shopify, 2026b)|
 
 ## 4. Onderzoeksvragen
 
@@ -451,6 +451,10 @@ JulCsc. (2023, 25 maart). Wat is Power BI? - Power BI. Microsoft Learn. Geraadpl
 
 
 The Open University. (2025). *Conducting an interview*. The Open University. Geraadpleegd op 9 november 2026, van https://help.open.ac.uk/postgraduate-study-skills/conducting-an-interview
+
+Performance Marketing: A Beginner’s Guide (2026) - Shopify. (2026, 5 november). Shopify. Geraadpleegd op 15 november 2026, van https://www.shopify.com/blog/performance-marketing
+
+Over doel-ROAS-biedingen - Google Ads help. (z.d.). Geraadpleegd op 15 november 2026, van https://support.google.com/google-ads/answer/6268637?hl=nl 
 
 ## versie beheer 
 |versie |datum | gedaan|
