@@ -115,7 +115,7 @@ De hoofdverantwoordelijken van alle betrokken afdelingen worden geïnterviewd om
 
 In onderstaande tabel worden de betrokken partijen, hun belangen en hun betrokkenheid bij het onderzoek weergegeven.
 
-|| Betrokken partij | Belang bij het dashboard | Betrokkenheid bij het onderzoek |
+| Betrokken partij | Belang bij het dashboard | Betrokkenheid bij het onderzoek |
 |---|---|---|
 | **Management** | Inzicht in omzet, winst, forecasts en algemene bedrijfsprestaties ter ondersteuning van beslissingen. | De opdrachtgever is geïnterviewd over zijn informatiebehoeften, gewenste KPI’s en verwachtingen van het dashboard. Op basis van het onderzoeksrapport beslist hij welke voorgestelde KPI’s en functionaliteiten worden opgenomen en welke prioriteit krijgen. |
 | **Sales B2B** | Inzicht in dealerprestaties, dealervoorraad, verkochte sloten per dealer en aanwezigheid van demosloten bij winkels. | Levert via de interviews informatie over de gewenste KPI’s en informatiebehoeften rondom dealers en B2B-verkoop. |
