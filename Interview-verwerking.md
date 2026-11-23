@@ -289,5 +289,3 @@ Doorverkoop per dealer: Inzicht in het aantal sloten dat iedere dealer heeft ver
 Gemiddelde maandelijkse verkoop: Inzicht in de gemiddelde doorverkoop per dealer, zodat prestaties met elkaar vergeleken kunnen worden.
 
 Voorraadpositie bij dealers: Inzicht in welke dealers onvoldoende of geen voorraad meer hebben, zodat tijdig contact kan worden opgenomen.
-
-Status: Concept – samengevat uit het interview, nog niet formeel bevestigd door de geïnterviewde.
