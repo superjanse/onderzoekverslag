@@ -5,7 +5,7 @@
 | auteur | Hugo Janse |
 | Datum | 15-11-2026 |
 | Versie | 1 |
-| clasievicatie | Intern |
+| classificatie | Intern |
 | client | Leonard Heuker of hoek |
 | Bedrijf | TMD Locks |
 
@@ -49,7 +49,12 @@ Door bedrijfsgegevens centraal beschikbaar te maken en berekeningen te automatis
   - [1.2 Probleemstelling](#12-probleemstelling)
   - [1.3 Doelstelling](#13-doelstelling)
 - [2. Betrokken partijen](#2-betrokken-partijen)
-- [3. Begrippenlijst](#3-begrippenlijst)
+- [3. Theoretisch kader](#3-theoretisch-kader)
+  - [3.1 Key Performance Indicators](#31-key-performance-indicators)
+  - [3.2 Informatiebehoefte van de gebruiker](#32-informatiebehoefte-van-de-gebruiker)
+  - [3.3 Overzichtelijke presentatie in dashboards](#33-overzichtelijke-presentatie-in-dashboards)
+  - [3.4 Prioriteren met MoSCoW](#34-prioriteren-met-moscow)
+  - [3.5 Toepassing binnen dit onderzoek](#35-toepassing-binnen-dit-onderzoek)
 - [4. Onderzoeksvragen](#4-onderzoeksvragen)
   - [4.1 Hoofdonderzoeksvraag](#41-hoofdonderzoeksvraag)
   - [4.2 Deelvragen](#42-deelvragen)
@@ -76,7 +81,8 @@ Door bedrijfsgegevens centraal beschikbaar te maken en berekeningen te automatis
   - [8.1 Indeling van het Power BI-dashboard](#81-indeling-van-het-power-bi-dashboard)
   - [8.2 Samenvatting van de aanbevelingen](#82-samenvatting-van-de-aanbevelingen)
 - [9. Bronnen](#9-bronnen)
-- [Versiebeheer](#versie-beheer)
+- [Bijlage A: Begrippenlijst](#bijlage-a-begrippenlijst)
+- [Versiebeheer](#versiebeheer)
 
 ---
 
@@ -97,7 +103,7 @@ Het kost medewerkers momenteel extra tijd om de juiste informatie in Exact Onlin
 
 Daarnaast heeft de organisatie behoefte aan KPI's die worden berekend op basis van bestaande bedrijfsgegevens. Deze berekeningen zijn niet direct beschikbaar in Exact Online en worden daarom pas uitgevoerd op het moment dat de informatie nodig is, vaak met behulp van Excel. Dit kost extra tijd: de Managing Director besteedde ongeveer zes uur per week aan het handmatig bijhouden en verwerken van gegevens in Excel. Handmatige berekeningen brengen bovendien het risico op menselijke fouten met zich mee.
 
-Ook voor inkoop en logistiek is overzichtelijke bedrijfsinformatie belangrijk. Een voorraadanalyse kost de Customer Support Manager ongeveer twee uur, omdat gegevens uit verschillende overzichten moeten worden gecombineerd. Het komt regelmatig voor dat sloten niet op tijd geleverd kunnen worden doordat ze niet op voorraad zijn, variërend van één tot twee keer per maand. Hierdoor moeten klanten en dealers langer wachten, laten zij soms een negatieve review achter en moet de verkoop in sommige gevallen tijdelijk worden stilgelegd, waardoor verkopen worden misgelopen.
+Ook voor inkoop en logistiek is overzichtelijke bedrijfsinformatie belangrijk. Een voorraadanalyse kost de Customer Support Manager ongeveer twee uur, omdat gegevens uit verschillende overzichten moeten worden gecombineerd. Hierdoor is het af en toe voorgekomen dat sloten niet op tijd geleverd konden worden doordat ze niet op voorraad waren. Als gevolg daarvan moesten klanten en dealers langer wachten, lieten zij soms een negatieve review achter en moest de verkoop in sommige gevallen tijdelijk worden stilgelegd, waardoor verkopen werden misgelopen.
 
 Verder is het lastig om bedrijfsresultaten duidelijk en professioneel aan potentiële investeerders te presenteren. TMD Locks wil inzicht kunnen geven in omzet, winst, verkoopprestaties en de voortgang ten opzichte van de opgestelde forecasts.
 
@@ -115,41 +121,71 @@ Om de informatiebehoeften goed in kaart te brengen, is inzicht nodig in de afdel
 
 ## 2. Betrokken partijen
 
-Bij de ontwikkeling van het Power BI-dashboard zijn verschillende afdelingen en belanghebbenden betrokken. Iedere afdeling heeft eigen informatiebehoeften die tijdens het onderzoek in kaart worden gebracht.
+Bij de ontwikkeling van het Power BI-dashboard zijn verschillende afdelingen en belanghebbenden betrokken. Iedere afdeling heeft eigen informatiebehoeften, die tijdens het onderzoek in kaart zijn gebracht.
 
-De hoofdverantwoordelijken van alle betrokken afdelingen worden geïnterviewd om hun informatiebehoeften, belangrijkste KPI's en verwachtingen van het dashboard vast te stellen.
+Voor het onderzoek zijn vijf medewerkers geïnterviewd om hun informatiebehoeften, belangrijkste KPI's en verwachtingen van het dashboard vast te stellen. Niet iedere afdeling had een eigen respondent; sommige medewerkers spraken namens meerdere afdelingen.
 
 In onderstaande tabel worden de betrokken partijen, hun belangen en hun betrokkenheid bij het onderzoek weergegeven.
 
 | Betrokken partij | Belang bij het dashboard | Betrokkenheid bij het onderzoek |
 |---|---|---|
-| **Management** | Inzicht in omzet, winst, forecasts en algemene bedrijfsprestaties ter ondersteuning van beslissingen. | De opdrachtgever is geïnterviewd over zijn informatiebehoeften, gewenste KPI’s en verwachtingen van het dashboard. Op basis van het onderzoeksrapport beslist hij welke voorgestelde KPI’s en functionaliteiten worden opgenomen en welke prioriteit krijgen. |
-| **Sales B2B** | Inzicht in dealerprestaties, dealervoorraad, verkochte sloten per dealer en aanwezigheid van demosloten bij winkels. | Levert via de interviews informatie over de gewenste KPI’s en informatiebehoeften rondom dealers en B2B-verkoop. |
-| **Sales B2C** | Inzicht in verkoopcijfers via onder andere Amazon en Decathlon, verkoopontwikkelingen en de beschikbare interne magazijnvoorraad. | De informatiebehoeften rondom B2C-verkoop en voorraad worden in de interviews onderzocht. |
-| **Marketing** | Inzicht in advertentiekosten, advertentiekosten per verkocht slot en verkoopontwikkelingen. | De interviews brengen de informatiebehoeften rondom marketingprestaties en relevante marketing-KPI’s in kaart. |
-| **Inkoop en logistiek** | Inzicht in actuele voorraadniveaus, beschikbare sloten en verwachte leveringen. | De interviews brengen de benodigde voorraad- en leveringsinformatie en de wensen voor ondersteuning bij inkoopbeslissingen in kaart. |
-| **Investeerders** | Inzicht in omzet, winst, verkoopprestaties en de voortgang ten opzichte van forecasts. | Zijn indirect betrokken. Ontvangen relevante bedrijfsresultaten via presentaties of screenshots, zonder dagelijkse toegang tot het dashboard. |
+| **Management** | Inzicht in omzet, winst, forecasts en algemene bedrijfsprestaties ter ondersteuning van beslissingen. | De Managing Director (opdrachtgever) en de Head of Finance zijn geïnterviewd over hun informatiebehoeften, gewenste KPI's en verwachtingen van het dashboard. De opdrachtgever beslist op basis van dit rapport welke KPI's en functionaliteiten worden opgenomen. |
+| **Sales B2B** | Inzicht in dealerprestaties, dealervoorraad, verkochte sloten per dealer en aanwezigheid van demosloten bij winkels. | De accountmanager B2B Sales is geïnterviewd over de informatiebehoeften rondom dealers en B2B-verkoop. |
+| **Sales B2C** | Inzicht in verkoopcijfers via onder andere Amazon en Decathlon, verkoopontwikkelingen en de beschikbare interne magazijnvoorraad. | De informatiebehoeften rondom B2C-verkoop zijn besproken met de CTO en de Managing Director. |
+| **Marketing** | Inzicht in advertentiekosten, advertentiekosten per verkocht slot en verkoopontwikkelingen. | De CTO is geïnterviewd over marketingprestaties en advertentiekosten, omdat hij verantwoordelijk is voor de analyse van marketinguitgaven. |
+| **Inkoop en logistiek** | Inzicht in actuele voorraadniveaus, beschikbare sloten en verwachte leveringen. | De Customer Support Manager is geïnterviewd over voorraad- en inkoopinformatie, omdat de voorraadanalyses door deze functie worden uitgevoerd. |
+| **Investeerders** | Inzicht in omzet, winst, verkoopprestaties en de voortgang ten opzichte van forecasts. | Zijn indirect betrokken en niet geïnterviewd. Zij ontvangen bedrijfsresultaten via presentaties of screenshots en hebben geen dagelijkse toegang tot het dashboard. De Managing Director bepaalt welke informatie aan de investeerders wordt getoond, voornamelijk de totale verkoop B2B en B2C, en heeft in dit onderzoek namens hen gesproken. |
 
-De betrokken partijen hebben ieder eigen informatiebehoeften en belangen bij het dashboard. Op basis van de interviews wordt in dit onderzoeksrapport een voorstel gedaan voor de KPI’s en functionaliteiten van het dashboard. Dit voorstel wordt voorgelegd aan de opdrachtgever, die naar aanleiding van het onderzoeksrapport beslist welke KPI’s en functionaliteiten worden opgenomen en welke prioriteit krijgen. Zo vormen de informatiebehoeften van de verschillende afdelingen de basis voor deze beslissing.
+De betrokken partijen hebben ieder eigen informatiebehoeften en belangen bij het dashboard. Deze informatiebehoeften vormen de basis voor het voorstel in dit rapport.
 
-## 3. Begrippenlijst
+## 3. Theoretisch kader
 
-In dit hoofdstuk worden de belangrijkste begrippen uit het onderzoeksrapport toegelicht. De begrippen hebben betrekking op bedrijfsinformatie, data-analyse en het Power BI-dashboard. De onderstaande tabel geeft per begrip de betekenis en de bijbehorende bron.
+In dit hoofdstuk worden de theoretische uitgangspunten beschreven die relevant zijn voor het opstellen van het voorstel voor het Power BI-dashboard. Hierbij wordt ingegaan op Key Performance Indicators (KPI's), de informatiebehoeften van gebruikers, de overzichtelijke presentatie van informatie in dashboards en het prioriteren van wensen. Deze theorie wordt gebruikt om de resultaten uit de interviews te beoordelen en te vertalen naar aanbevelingen voor het dashboard. De belangrijkste begrippen uit dit rapport worden toegelicht in de begrippenlijst in bijlage A.
 
-| Begrip | Betekenis |Bron|
-|---|---|---|
-| **Power BI** | Een programma van Microsoft waarmee gegevens worden geanalyseerd en weergegeven in interactieve dashboards en rapportages. |(JulCsc, 2023)|
-| **Exact Online** | Een online bedrijfssoftwarepakket waarin onder andere verkoop-, financiële en voorraadgegevens worden bijgehouden. |(Exact, 2026)|
-| **Dashboard** | Een visueel overzicht van belangrijke bedrijfsinformatie en KPI's. |(JulCsc, 2023)|
-| **KPI** | Key Performance Indicator: een meetbare indicator waarmee de prestaties van een organisatie worden beoordeeld. |(Key Performance Indicators, 2026)|
-| **Datakwaliteit** | De mate waarin gegevens juist, volledig, actueel en betrouwbaar zijn. |(Jonker, 2026)|
-| **Datavisualisatie** | Het weergeven van gegevens met grafieken, tabellen en diagrammen om informatie begrijpelijk te maken. |(What Is Data Visualization?, 2025)|
-| **Connector** | Een technische koppeling waarmee gegevens vanuit Exact Online naar Power BI worden overgebracht. |(Whhender, 2026)|
-| **B2B (Business-to-Business)** | Verkoop van producten of diensten aan andere bedrijven, zoals dealers en winkels. |(Wat Is het Verschil Tussen B2B en B2C? - Schot, 2026)|
-| **B2C (Business-to-Consumer)** | Verkoop van producten of diensten aan consumenten, bijvoorbeeld via webshops. |(Wat Is het Verschil Tussen B2B en B2C? - Schot, 2026)|
-| **Forecast** | Een prognose van toekomstige bedrijfsresultaten, bijvoorbeeld de verwachte omzet of verkoopcijfers. |(De Snoo, 2026)|
-| **ROAS (Return on Ad Spend)** | De aan advertenties toegeschreven omzet gedeeld door de advertentiekosten. Deze verhouding laat zien hoeveel omzet iedere bestede advertentie-euro oplevert. | (Over doel-ROAS-biedingen - Google Ads Help, z.d.-b)|
-| **Performance marketing** | Een vorm van online marketing die gericht is op meetbare resultaten, zoals klikken, aanvragen of verkopen. Campagnes worden beoordeeld en bijgestuurd op basis van deze resultaten. |(Performance Marketing: A Beginner’s Guide (2026) - Shopify, 2026b)|
+### 3.1 Key Performance Indicators
+
+Een Key Performance Indicator (KPI) is een meetbare indicator waarmee de prestaties van een organisatie, afdeling of bedrijfsproces kunnen worden gevolgd. Volgens Parmenter (2020) moeten KPI's aansluiten bij de factoren die het meest bepalen of een organisatie haar doelen haalt. Een KPI moet bovendien informatie opleveren waarop medewerkers kunnen sturen.
+
+Om te bepalen of een KPI goed is opgesteld, wordt vaak het SMART-model gebruikt (Doran, 1981). Een KPI is dan Specifiek (duidelijk wat er wordt gemeten), Meetbaar (er is een formule en databron), Acceptabel/toewijsbaar (er is een verantwoordelijke), Realistisch en Tijdgebonden (er is een vaste periode, bijvoorbeeld per week of maand).
+
+Daarnaast wordt onderscheid gemaakt tussen lagging en leading indicatoren (Parmenter, 2020). Een lagging indicator laat het resultaat van het verleden zien, zoals de omzet van de afgelopen maand. Een leading indicator geeft een signaal vóórdat een resultaat zichtbaar wordt, zoals een dalende voorraad die op een toekomstige stock-out wijst. Een dashboard met alleen lagging indicatoren laat zien wat er is gebeurd, maar helpt minder bij het op tijd ingrijpen.
+
+Voor TMD Locks betekent dit dat niet iedere beschikbare bedrijfswaarde automatisch een relevante KPI is. De KPI's in het Power BI-dashboard moeten aansluiten bij de werkzaamheden van de verschillende afdelingen. Daarom is in dit onderzoek aan medewerkers gevraagd welke gegevens zij gebruiken en welke KPI's voor hen de hoogste prioriteit hebben.
+
+### 3.2 Informatiebehoefte van de gebruiker
+
+Few (2013) omschrijft een dashboard als een visuele weergave van de belangrijkste informatie die nodig is om één of meer doelen te bereiken, zo samengebracht dat deze in één oogopslag te volgen is. Welke informatie het belangrijkst is, verschilt per gebruiker of afdeling. Microsoft (z.d.) adviseert daarom om bij het ontwerpen van een dashboard eerst te bepalen wie de doelgroep is en welke beslissingen zij met het dashboard nemen.
+
+Voor dit onderzoek betekent dit dat de informatiebehoefte per afdeling apart in kaart moet worden gebracht. Een dashboard moet dan zowel gezamenlijke bedrijfsinformatie als afdelingsspecifieke informatie kunnen weergeven.
+
+### 3.3 Overzichtelijke presentatie in dashboards
+
+Een dashboard moet de belangrijkste informatie duidelijk en overzichtelijk presenteren. Few (2013) noemt hiervoor onder andere de volgende ontwerpprincipes:
+
+- De belangrijkste informatie staat op de opvallendste plek, meestal linksboven, omdat gebruikers daar beginnen met lezen.
+- Het dashboard bevat zo weinig mogelijk ruis, zoals overbodige kleuren, randen en decoraties.
+- De informatie past zoveel mogelijk op één scherm, zodat de gebruiker niet hoeft te scrollen of te zoeken.
+
+Microsoft (z.d.) geeft vergelijkbaar advies voor Power BI. Het gekozen type visualisatie moet passen bij de gegevens. Voor het vergelijken van waarden zijn staaf- of kolomdiagrammen geschikt, en belangrijke losse waarden kunnen met KPI-kaarten worden weergegeven. Ook moet een dashboard consequent zijn in schaal, volgorde en kleurgebruik.
+
+Voor het Power BI-dashboard van TMD Locks betekent dit dat de belangrijkste KPI's per afdeling direct zichtbaar moeten zijn. Minder belangrijke of meer gedetailleerde informatie kan op afzonderlijke pagina's of op een lager detailniveau worden weergegeven.
+
+### 3.4 Prioriteren met MoSCoW
+
+Omdat niet alle wensen tegelijk kunnen worden gebouwd, moeten zij worden geprioriteerd. Een veelgebruikte methode hiervoor is MoSCoW (Agile Business Consortium, 2014). Hierbij wordt iedere wens ingedeeld in één van vier categorieën:
+
+- **Must have:** zonder deze wens is het dashboard niet bruikbaar.
+- **Should have:** belangrijk, maar het dashboard werkt ook zonder.
+- **Could have:** wenselijk, maar alleen als er tijd over is.
+- **Won't have (this time):** wordt in deze versie niet gebouwd.
+
+In dit onderzoek wordt MoSCoW gebruikt om de gewenste KPI's en functionaliteiten in te delen. Zo wordt duidelijk wat in de eerste versie van het dashboard moet zitten en wat later kan worden toegevoegd.
+
+### 3.5 Toepassing binnen dit onderzoek
+
+De theoretische uitgangspunten uit dit hoofdstuk worden gecombineerd met de resultaten van de interviews. De theorie geeft algemene richtlijnen voor het selecteren, prioriteren en presenteren van KPI's. De interviews geven inzicht in de specifieke informatiebehoeften van medewerkers van TMD Locks.
+
+Bij het opstellen van het voorstel wordt daarom gekeken naar drie punten: de KPI moet relevant zijn voor de werkzaamheden van de gebruiker, de benodigde gegevens moeten beschikbaar zijn en de informatie moet overzichtelijk kunnen worden weergegeven in Power BI. Deze uitgangspunten vormen samen met de onderzoeksresultaten de basis voor de aanbevelingen in dit rapport.
 
 ## 4. Onderzoeksvragen
 
@@ -296,19 +332,19 @@ De genoemde KPI's en functionaliteiten zijn in onderstaande tabel samengevoegd.
 
 | KPI of functionaliteit | Genoemd door |
 |---|---|
-| Verkoopaantallen B2B en B2C | Leonard, Arie |
-| Verkoopaantallen per periode | Leonard, Arie, Marnix |
-| Performance-marketingkosten per B2C-slot | Leonard, Arie, Marnix |
-| Forecast versus daadwerkelijke verkoop | Leonard, Arie |
-| Verkoop per kanaal | Leonard, Marnix |
-| Verkoop per land | Leonard, Arie |
-| ROAS | Marnix |
-| Doorverkoop per dealer | Timo, Arie, Marnix |
-| Gemiddelde maandelijkse verkoop per dealer | Timo |
-| Voorraad bij dealers | Timo |
-| Actuele productvoorraad | Gisela |
-| Verkoopaantallen per productvariant | Gisela, Arie |
-| Besteladvies op basis van voorraad en verkoop | Gisela |
+| Verkoopaantallen B2B en B2C | Managing Director, Head of Finance |
+| Verkoopaantallen per periode | Managing Director, Head of Finance, CTO |
+| Performance-marketingkosten per B2C-slot | Managing Director, Head of Finance, CTO |
+| Forecast versus daadwerkelijke verkoop | Managing Director, Head of Finance |
+| Verkoop per kanaal | Managing Director, CTO |
+| Verkoop per land | Managing Director, Head of Finance |
+| ROAS | CTO |
+| Doorverkoop per dealer | Accountmanager B2B Sales, Head of Finance, CTO |
+| Gemiddelde maandelijkse verkoop per dealer | Accountmanager B2B Sales |
+| Voorraad bij dealers | Accountmanager B2B Sales |
+| Actuele productvoorraad | Customer Support Manager |
+| Verkoopaantallen per productvariant | Customer Support Manager, Head of Finance |
+| Besteladvies op basis van voorraad en verkoop | Customer Support Manager |
 
 Uit dit overzicht blijkt dat meerdere medewerkers behoefte hebben aan vergelijkbare verkoopgegevens. Vooral verkoopaantallen, marketingprestaties en de vergelijking met de forecast komen bij verschillende functies terug.
 
@@ -320,20 +356,43 @@ In paragraaf 6.4 zijn alle KPI's en functionaliteiten weergegeven die tijdens de
 
 De antwoorden zijn samengevoegd in onderstaande tabel.
 
-| Medewerker | Prioriteit 1 | Prioriteit 2 | Prioriteit 3 |
+| Functie | Prioriteit 1 | Prioriteit 2 | Prioriteit 3 |
 |---|---|---|---|
-| Leonard | Verkoopaantallen B2B/B2C | Marketingkosten per B2C-slot | Forecast versus verkoop |
-| Arie | Maandelijkse verkoopaantallen | B2B/B2C-verdeling | Forecast versus verkoop |
-| Marnix | Verkoopaantallen | Marketingprestaties | Verkoopkanalen |
-| Timo | Doorverkoop per dealer | Gemiddelde verkoop per dealer | Dealervoorraad |
-| Gisela | Actuele productvoorraad | Verkoopaantallen | Besteladvies |
+| Managing Director | Verkoopaantallen B2B/B2C | Marketingkosten per B2C-slot | Forecast versus verkoop |
+| Head of Finance | Maandelijkse verkoopaantallen | B2B/B2C-verdeling | Forecast versus verkoop |
+| CTO | Verkoopaantallen | Marketingprestaties | Verkoopkanalen |
+| Accountmanager B2B Sales | Doorverkoop per dealer | Gemiddelde verkoop per dealer | Dealervoorraad |
+| Customer Support Manager | Actuele productvoorraad | Verkoopaantallen | Besteladvies |
 
 
 Uit de resultaten blijkt dat verkoopaantallen voor meerdere medewerkers een belangrijke KPI vormen. Daarnaast worden marketingprestaties en de vergelijking met de forecast door verschillende medewerkers genoemd.
 
 Om te voorkomen dat het Power BI-dashboard te veel informatie tegelijkertijd toont, wordt in het voorstel rekening gehouden met deze prioriteiten. Voorgesteld wordt om de belangrijkste KPI's een prominente plaats op de bijbehorende dashboardpagina's te geven. Overige informatie kan op onderliggende pagina's worden weergegeven.
 
-De opdrachtgever beslist op basis van het onderzoeksrapport welke voorgestelde KPI's worden opgenomen en welke prioriteit krijgen.
+Vervolgens zijn de KPI's met de MoSCoW-methode (paragraaf 3.4) ingedeeld. Hiervoor is de volgende regel gebruikt:
+
+- **Must have:** door een respondent als prioriteit 1 genoemd, of door twee of meer respondenten in de top drie.
+- **Should have:** door één respondent in de top drie genoemd, maar niet als prioriteit 1.
+- **Could have:** wel genoemd in paragraaf 6.4, maar door niemand in de top drie.
+- **Won't have:** KPI's die in deze versie niet worden gebouwd.
+
+| KPI of functionaliteit | Onderbouwing | MoSCoW |
+|---|---|---|
+| Verkoopaantallen B2B en B2C | Prioriteit 1 (Managing Director), prioriteit 2 (Head of Finance) | Must have |
+| Verkoopaantallen per periode | Prioriteit 1 (Head of Finance) | Must have |
+| Performance-marketingkosten per B2C-slot | Top drie bij Managing Director en CTO | Must have |
+| Forecast versus daadwerkelijke verkoop | Top drie bij Managing Director en Head of Finance | Must have |
+| Doorverkoop per dealer | Prioriteit 1 (Accountmanager B2B Sales) | Must have |
+| Actuele productvoorraad | Prioriteit 1 (Customer Support Manager) | Must have |
+| Verkoop per kanaal | Top drie bij CTO | Should have |
+| Gemiddelde maandelijkse verkoop per dealer | Top drie bij Accountmanager B2B Sales | Should have |
+| Voorraad bij dealers | Top drie bij Accountmanager B2B Sales | Should have |
+| Besteladvies op basis van voorraad en verkoop | Top drie bij Customer Support Manager | Should have |
+| Verkoop per land | Genoemd, niet in top drie | Could have |
+| ROAS | Genoemd, niet in top drie | Could have |
+| Verkoopaantallen per productvariant | Genoemd, niet in top drie | Could have |
+
+Volgens deze indeling bevat de eerste versie van het dashboard in ieder geval de Must have-KPI's. Hierdoor krijgt iedere afdeling vanaf het begin haar belangrijkste KPI. Should have- en Could have-KPI's kunnen daarna worden toegevoegd. Er zijn geen KPI's als Won't have aangemerkt, omdat uit de data-inventarisatie (paragraaf 6.6) blijkt dat alle KPI's haalbaar zijn. Deze indeling is een voorstel; de definitieve prioriteiten worden met de opdrachtgever afgestemd.
 
 ### 6.6 Beschikbaarheid van gegevens
 
@@ -359,25 +418,25 @@ De gegevens uit Exact Online worden via een custom connector in Power BI geladen
 | Verkoopaantallen per productvariant | Exact Online | Ja |
 | Besteladvies op basis van voorraad en verkoop | Exact Online (voorraad en verkoophistorie) | Ja, berekend |
 
-Hieruit blijkt dat alle gewenste KPI's met de beschikbare gegevens in Power BI kunnen worden weergegeven. Een deel van de KPI's is niet direct als gegeven beschikbaar, maar moet in Power BI worden berekend op basis van gegevens uit Exact Online. Zo wordt de voorraad bij dealers bepaald door het aantal geleverde sloten te verminderen met het aantal sloten waarvan het serienummer door een eindklant is geactiveerd. Dit blijft een benadering: sloten die wel zijn verkocht maar nog niet geactiveerd, worden als voorraad bij de dealer meegeteld. Daarnaast is de forecast het enige onderdeel dat niet automatisch wordt bijgewerkt; wanneer de forecast verandert, moet deze opnieuw handmatig in Power BI worden geladen.
+Hieruit blijkt dat alle gewenste KPI's met de beschikbare gegevens in Power BI kunnen worden weergegeven. Een deel van de KPI's is niet direct als gegeven beschikbaar, maar moet in Power BI worden berekend op basis van gegevens uit Exact Online. Zo wordt de voorraad bij dealers bepaald door het aantal geleverde sloten te verminderen met het aantal sloten waarvan het serienummer door een eindklant is geactiveerd. Dit blijft een schatting: sloten die al zijn verkocht, maar nog niet zijn geactiveerd, worden als voorraad bij de dealer meegeteld. Daarnaast is de forecast het enige onderdeel dat niet automatisch wordt bijgewerkt; wanneer de forecast verandert, moet deze opnieuw handmatig in Power BI worden geladen.
 
 ### 6.7 Samenvatting van de belangrijkste bevindingen
 
-Uit de vijf interviews blijkt dat medewerkers van TMD Locks
-bedrijfsinformatie uit verschillende systemen verzamelen en
-analyseren. Dit brengt handmatige werkzaamheden met zich mee
-en kost medewerkers extra tijd.
+In deze paragraaf worden de belangrijkste bevindingen uit paragraaf 6.1 tot en met 6.6 samengevat.
 
-Daarnaast blijkt dat de informatiebehoeften per afdeling
-verschillen. Hoewel meerdere medewerkers gebruikmaken van
-dezelfde verkoopgegevens, hebben zij verschillende wensen
-voor de manier waarop deze informatie wordt weergegeven.
+**Huidige werkwijze (6.1).** Medewerkers verzamelen bedrijfsinformatie uit verschillende systemen, voornamelijk Exact Online, Excel en Shopify. Welke systemen worden gebruikt, verschilt per functie.
 
-De interviews laten zien dat er behoefte is aan een centrale
-en overzichtelijke omgeving waarin belangrijke bedrijfsgegevens
-en KPI's toegankelijk zijn.
+**Knelpunten (6.2).** Het handmatig verzamelen, combineren en verwerken van gegevens kost veel tijd: ongeveer twee uur per voorraadanalyse, drie tot vier uur per week voor dealerinformatie en ongeveer zes uur per week voor de Managing Director. Daarnaast staan gegevens verspreid over meerdere bronnen en ontbreekt een centrale omgeving.
 
-Deze resultaten vormen de basis voor het voorstel voor de KPI's, functionaliteiten en presentatie van het Power BI-dashboard.
+**Informatiebehoeften per afdeling (6.3).** Verkoopgegevens zijn voor bijna alle respondenten belangrijk, maar worden vanuit verschillende invalshoeken bekeken. Het management, Finance en de CTO richten zich op algemene verkoop- en marketingprestaties, B2B Sales op dealers en Customer Support op voorraad en inkoop.
+
+**Gewenste KPI's (6.4).** In totaal zijn dertien KPI's en functionaliteiten genoemd. Verkoopaantallen, marketingkosten per B2C-slot, forecast versus verkoop en doorverkoop per dealer werden door meerdere respondenten genoemd.
+
+**Prioritering (6.5).** Verkoopaantallen worden het vaakst als prioriteit genoemd, gevolgd door marketingprestaties en de vergelijking met de forecast. Voor B2B Sales en Customer Support staan afdelingsspecifieke KPI's bovenaan, zoals doorverkoop per dealer en actuele productvoorraad. Met de MoSCoW-methode zijn zes KPI's als Must have, vier als Should have en drie als Could have ingedeeld.
+
+**Beschikbaarheid van gegevens (6.6).** Alle gewenste KPI's kunnen met gegevens uit Exact Online en Excel in Power BI worden weergegeven, waarvan een deel moet worden berekend. De voorraad bij dealers is een schatting en de forecast moet handmatig worden bijgewerkt.
+
+Deze bevindingen vormen de basis voor de beantwoording van de deelvragen in hoofdstuk 7.
 
 
 ## 7. Conclusie
@@ -404,6 +463,8 @@ Uit de interviews blijkt dat de belangrijkste bedrijfsgegevens en KPI's per afde
 Vooral verkoopaantallen, uitgesplitst naar B2B en B2C, de vergelijking tussen gerealiseerde verkoop en forecast en de performance-marketingkosten per verkocht B2C-slot worden door meerdere medewerkers belangrijk gevonden.
 
 Daarnaast hebben de verschillende afdelingen specifieke informatiebehoeften. Voor B2B Sales zijn vooral de doorverkoop en voorraadpositie bij dealers belangrijk. Voor Customer Support ligt de nadruk op productvoorraad, verkoophistorie en besteladvies.
+
+Wanneer de KPI's worden ingedeeld volgens het onderscheid tussen lagging en leading indicatoren (paragraaf 3.1), valt op dat de meeste genoemde KPI's lagging zijn. Verkoopaantallen, de B2B/B2C-verdeling, verkoop per kanaal en land, marketingkosten per B2C-slot en ROAS laten zien wat er in een afgelopen periode is gebeurd. Deze KPI's werden vooral door de Managing Director, de Head of Finance en de CTO genoemd en zijn geschikt om de prestaties van TMD Locks te beoordelen. De actuele productvoorraad, het besteladvies, de voorraad bij dealers en de gemiddelde maandelijkse verkoop per dealer zijn daarentegen leading: zij geven een signaal voordat een probleem ontstaat. Deze KPI's werden genoemd door Customer Support en B2B Sales en kunnen helpen om voorraadtekorten, zoals beschreven in paragraaf 1.2, op tijd te signaleren. De vergelijking tussen forecast en daadwerkelijke verkoop zit hier tussenin. Achteraf bekeken is deze KPI lagging, maar wanneer tijdens de forecastperiode ook wordt getoond hoeveel sloten nog moeten worden verkocht, kan tijdig worden bijgestuurd. Daarmee krijgt deze KPI ook een leading functie.
 
 Geconcludeerd kan worden dat het Power BI-dashboard zowel gezamenlijke als afdelingsspecifieke KPI's moet bevatten. Hierbij is het belangrijk dat iedere afdeling eenvoudig toegang krijgt tot de informatie die voor haar werkzaamheden relevant is, zonder dat het dashboard onoverzichtelijk wordt.
 
@@ -439,7 +500,7 @@ Uit het onderzoek blijkt dat medewerkers van TMD Locks momenteel bedrijfsinforma
 
 Tijdens de interviews zijn de belangrijkste informatiebehoeften en KPI's van de verschillende afdelingen vastgesteld. Vooral verkoopaantallen, uitgesplitst naar B2B en B2C, de vergelijking tussen gerealiseerde verkoop en forecast en de performance-marketingkosten per verkocht B2C-slot worden door meerdere medewerkers belangrijk gevonden. Voorgesteld wordt om deze onderdelen op te nemen in het Power BI-dashboard.
 
-Daarnaast hebben de verschillende afdelingen specifieke informatiebehoeften. Voor B2B Sales zijn de doorverkoop per dealer, de gemiddelde maandelijkse doorverkoop en de voorraadpositie bij dealers belangrijk. Voor Customer Support ligt de nadruk op actuele productvoorraad, verkoophistorie en besteladvies. Ook verkoopgegevens per periode, land, verkoopkanaal en productvariant en inzicht in ROAS worden meegenomen in het voorstel. Uit de data-inventarisatie blijkt bovendien dat alle voorgestelde KPI's met de gegevens uit Exact Online in Power BI kunnen worden weergegeven.
+Daarnaast hebben de verschillende afdelingen specifieke informatiebehoeften. Voor B2B Sales zijn de doorverkoop per dealer, de gemiddelde maandelijkse doorverkoop en de voorraadpositie bij dealers belangrijk. Voor Customer Support ligt de nadruk op actuele productvoorraad, verkoophistorie en besteladvies. Ook verkoopgegevens per periode, land, verkoopkanaal en productvariant en inzicht in ROAS worden meegenomen in het voorstel. Uit de data-inventarisatie blijkt bovendien dat alle voorgestelde KPI's met de gegevens uit Exact Online en Excel in Power BI kunnen worden weergegeven.
 
 Uit de interviews blijkt daarnaast dat medewerkers behoefte hebben aan een duidelijke en gestructureerde weergave van bedrijfsinformatie. Daarom wordt voorgesteld om de belangrijkste KPI's per afdeling direct zichtbaar te maken op de bijbehorende dashboardpagina's. Aanvullende informatie kan op onderliggende pagina's worden weergegeven. In de interviewverslagen zijn geen specifieke voorkeuren voor grafiektypen of visualisaties vastgelegd.
 
@@ -460,13 +521,13 @@ Voor de afdeling Sales wordt een algemene overzichtspagina voorgesteld waarop de
 
 Op de B2C-pagina wordt voorgesteld om ook de performance-marketingkosten per verkocht B2C-slot, ROAS en de verkoopprestaties per verkoopkanaal weer te geven. Daarmee biedt deze pagina inzicht in zowel verkoop- als marketingprestaties.
 
-Een aparte forecastpagina wordt voorgesteld om inzicht te geven in de voortgang ten opzichte van de verkoopdoelstellingen. Hier worden de daadwerkelijke verkoopresultaten vergeleken met de vooraf opgestelde forecast. Als verdere uitwerking wordt voorgesteld om het behaalde percentage van de doelstelling, het resterende aantal te verkopen sloten en het benodigde gemiddelde aantal verkopen per resterende dag van de forecastperiode te tonen. Zo kan de organisatie beoordelen of de verkopen op schema liggen.
+Een aparte forecastpagina wordt voorgesteld om inzicht te geven in de voortgang ten opzichte van de verkoopdoelstellingen. Hier worden de daadwerkelijke verkoopresultaten vergeleken met de vooraf opgestelde forecast. Als verdere uitwerking wordt voorgesteld om het behaalde percentage van de doelstelling, het resterende aantal te verkopen sloten en het benodigde gemiddelde aantal verkopen per resterende dag van de forecastperiode te tonen. Zo kan de organisatie beoordelen of de verkopen op schema liggen. Hierdoor wordt de forecast niet alleen achteraf gebruikt, maar ook als leading indicator om tijdens de periode bij te sturen.
 
 Voor Finance wordt een eigen pagina voorgesteld waarin de belangrijkste financiële en commerciële gegevens samenkomen. Op deze manier krijgt de afdeling inzicht in de KPI's die nodig zijn om de prestaties van TMD Locks te beoordelen, zoals maandelijkse verkoopaantallen, de verdeling tussen B2B en B2C en de vergelijking met de forecast.
 
-Ook voor voorraadbeheer en inkoop wordt een eigen pagina voorgesteld. Op deze pagina worden de actuele voorraadstanden, historische verkoopaantallen en verkoopontwikkelingen weergegeven. Met deze informatie kan eventueel een besteladvies worden ontwikkeld om beter te bepalen welke producten en aantallen moeten worden ingekocht.
+Ook voor voorraadbeheer en inkoop wordt een eigen pagina voorgesteld. Op deze pagina worden de actuele voorraadstanden, historische verkoopaantallen en verkoopontwikkelingen weergegeven. Met deze informatie kan eventueel een besteladvies worden ontwikkeld om beter te bepalen welke producten en aantallen moeten worden ingekocht. Omdat de actuele voorraad en het besteladvies leading indicatoren zijn, kan deze pagina helpen om voorraadtekorten te signaleren voordat sloten niet meer leverbaar zijn.
 
-Een afzonderlijke pagina voor de voorraad bij dealers wordt voorgesteld om te laten zien hoeveel sloten dealers naar schatting nog op voorraad hebben en hoeveel zij hebben doorverkocht. Hierdoor kan B2B Sales sneller bepalen welke dealers mogelijk nieuwe voorraad nodig hebben en wanneer contact kan worden opgenomen voor een herhaalbestelling.
+Een afzonderlijke pagina voor de voorraad bij dealers wordt voorgesteld om te laten zien hoeveel sloten dealers naar schatting nog op voorraad hebben en hoeveel zij hebben doorverkocht. Hierdoor kan B2B Sales sneller bepalen welke dealers mogelijk nieuwe voorraad nodig hebben en wanneer contact kan worden opgenomen voor een herhaalbestelling. Ook deze informatie is leading: B2B Sales kan actie ondernemen voordat een dealer zonder voorraad zit.
 
 Met deze indeling krijgt iedere afdeling toegang tot de informatie die voor haar werkzaamheden relevant is, terwijl de benodigde bedrijfsgegevens binnen één centrale rapportageomgeving beschikbaar zijn. Door gegevens en KPI's in Power BI samen te brengen en berekeningen te automatiseren, kunnen handmatige werkzaamheden worden verminderd. Wanneer de gegevens en berekeningen correct zijn ingericht en gecontroleerd, kan dit bijdragen aan een betrouwbaardere en efficiëntere informatievoorziening binnen TMD Locks.
 
@@ -495,7 +556,7 @@ Jonker, J. A. A. (2026, 2 april). What are data quality dimensions? Geraadpleegd
 
 What is data visualization? (2025, 17 november). Geraadpleegd op 4 november 2026, van https://www.ibm.com/think/topics/data-visualization
 
-Whhender. (2026, 10 oktober). Power Query-Connectors - Power query. Microsoft Learn. Geraadpleegd op 4 november 2016, van https://learn.microsoft.com/nl-nl/power-query/connectors/
+Whhender. (2026, 10 oktober). Power Query-Connectors - Power query. Microsoft Learn. Geraadpleegd op 4 november 2026, van https://learn.microsoft.com/nl-nl/power-query/connectors/
 
 Wat is het verschil tussen B2B en B2C? - Schot. (2026, 31 juli). Schot. Geraadpleegd op 4 november 2026, van https://schot.nl/onze-diensten/advies-strategie/wat-is-het-verschil-tussen-b2b-en-b2c/
 
@@ -508,11 +569,40 @@ The Open University. (2025). *Conducting an interview*. The Open University. Ger
 
 Verhoeven, N. (2022). *Wat is onderzoek? Praktijkboek voor methoden en technieken* (7e druk). Boom.
 
+Agile Business Consortium. (2014). *The DSDM Agile Project Framework Handbook*. Agile Business Consortium. Geraadpleegd op 23 november 2026, van https://www.agilebusiness.org/wp-content/uploads/2026/05/DSDM-Agile-Project-Framework-Handbook.pdf
+
+Doran, G. T. (1981). There's a S.M.A.R.T. way to write management's goals and objectives. *Management Review, 70*(11), 35–36.
+
+Few, S. (2013). *Information dashboard design: Displaying data for at-a-glance monitoring* (2nd ed.). Analytics Press.
+
+Microsoft. (z.d.). *Tips voor het ontwerpen van een geweldig Power BI-dashboard*. Microsoft Learn. Geraadpleegd op 23 november 2026, van https://learn.microsoft.com/nl-nl/power-bi/create-reports/service-dashboards-design-tips
+
+Parmenter, D. (2020). *Key performance indicators: Developing, implementing, and using winning KPIs* (4th ed.). Wiley.
+
 Performance Marketing: A Beginner’s Guide (2026) - Shopify. (2026, 5 november). Shopify. Geraadpleegd op 15 november 2026, van https://www.shopify.com/blog/performance-marketing
 
 Over doel-ROAS-biedingen - Google Ads help. (z.d.). Geraadpleegd op 15 november 2026, van https://support.google.com/google-ads/answer/6268637?hl=nl 
 
-## versie beheer 
+## Bijlage A: Begrippenlijst
+
+In deze bijlage worden de belangrijkste begrippen uit het onderzoeksrapport toegelicht. De begrippen hebben betrekking op bedrijfsinformatie, data-analyse en het Power BI-dashboard. De onderstaande tabel geeft per begrip de betekenis en de bijbehorende bron.
+
+| Begrip | Betekenis |Bron|
+|---|---|---|
+| **Power BI** | Een programma van Microsoft waarmee gegevens worden geanalyseerd en weergegeven in interactieve dashboards en rapportages. |(JulCsc, 2023)|
+| **Exact Online** | Een online bedrijfssoftwarepakket waarin onder andere verkoop-, financiële en voorraadgegevens worden bijgehouden. |(Exact, 2026)|
+| **Dashboard** | Een visueel overzicht van belangrijke bedrijfsinformatie en KPI's. |(JulCsc, 2023)|
+| **KPI** | Key Performance Indicator: een meetbare indicator waarmee de prestaties van een organisatie worden beoordeeld. |(Key Performance Indicators, 2026)|
+| **Datakwaliteit** | De mate waarin gegevens juist, volledig, actueel en betrouwbaar zijn. |(Jonker, 2026)|
+| **Datavisualisatie** | Het weergeven van gegevens met grafieken, tabellen en diagrammen om informatie begrijpelijk te maken. |(What Is Data Visualization?, 2025)|
+| **Connector** | Een technische koppeling waarmee gegevens vanuit Exact Online naar Power BI worden overgebracht. |(Whhender, 2026)|
+| **B2B (Business-to-Business)** | Verkoop van producten of diensten aan andere bedrijven, zoals dealers en winkels. |(Wat Is het Verschil Tussen B2B en B2C? - Schot, 2026)|
+| **B2C (Business-to-Consumer)** | Verkoop van producten of diensten aan consumenten, bijvoorbeeld via webshops. |(Wat Is het Verschil Tussen B2B en B2C? - Schot, 2026)|
+| **Forecast** | Een prognose van toekomstige bedrijfsresultaten, bijvoorbeeld de verwachte omzet of verkoopcijfers. |(De Snoo, 2026)|
+| **ROAS (Return on Ad Spend)** | De aan advertenties toegeschreven omzet gedeeld door de advertentiekosten. Deze verhouding laat zien hoeveel omzet iedere bestede advertentie-euro oplevert. | (Over doel-ROAS-biedingen - Google Ads Help, z.d.-b)|
+| **Performance marketing** | Een vorm van online marketing die gericht is op meetbare resultaten, zoals klikken, aanvragen of verkopen. Campagnes worden beoordeeld en bijgestuurd op basis van deze resultaten. |(Performance Marketing: A Beginner’s Guide (2026) - Shopify, 2026b)|
+
+## Versiebeheer 
 |versie |datum | gedaan|
 |---|---|-----|
 |0.1 |29-10-2026|opzet gemaakt|
