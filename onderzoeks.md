@@ -95,29 +95,23 @@ De organisatie heeft behoefte aan een centrale en overzichtelijke manier om deze
 
 ### 1.2 Probleemstelling
 
-De probleemstelling is gebaseerd op de eerste gesprekken met de opdrachtgever, Leonard Heuker of Hoek. Tijdens deze gesprekken kwamen verschillende problemen naar voren rondom het verzamelen, analyseren en presenteren van bedrijfsgegevens binnen TMD Locks. De interviews die later zijn afgenomen (hoofdstuk 6) bevestigden deze problemen en maakten ze meetbaar.
+De probleemstelling is gebaseerd op de eerste gesprekken met de opdrachtgever, Leonard Heuker of Hoek. De interviews uit hoofdstuk 6 bevestigden de genoemde problemen en maakten ze meetbaar. Naarmate TMD Locks groeide, nam de hoeveelheid bedrijfsgegevens toe en moesten medewerkers steeds meer informatie handmatig verzamelen en verwerken.
 
-Naarmate TMD Locks groeide en er meer bedrijfsgegevens beschikbaar kwamen, werd het probleem groter doordat medewerkers steeds meer informatie handmatig moesten verzamelen en verwerken.
+Informatie zoals verkoopcijfers, verkopen per dealer, dealervoorraad en verkoopontwikkelingen is in Exact Online alleen te vinden via uitgebreide tabellen en filters. KPI's op basis van deze gegevens worden pas berekend wanneer ze nodig zijn, vaak handmatig in Excel. Dit kost tijd en brengt het risico op rekenfouten met zich mee. Zo besteedt de accountmanager B2B Sales drie tot vier uur per week aan dealerinformatie. De Managing Director besteedde ongeveer zes uur per week aan het bijhouden van gegevens in Excel.
 
-Het kost medewerkers momenteel extra tijd om de juiste informatie in Exact Online te vinden. Zij moeten regelmatig in uitgebreide tabellen zoeken en verschillende filters toepassen. Dit geldt onder andere voor verkoopcijfers, het aantal verkochte sloten per dealer, de dealervoorraad en verkoopontwikkelingen. Zo besteedt de accountmanager B2B Sales naar schatting drie tot vier uur per week aan het verzamelen en analyseren van dealerinformatie.
+Ook de voorraadplanning lijdt hieronder. Een voorraadanalyse kost de Customer Support Manager ongeveer twee uur. Het is voorgekomen dat sloten niet op voorraad waren. Klanten en dealers moesten daardoor langer wachten, er kwamen negatieve reviews en de verkoop moest soms tijdelijk worden stilgelegd, waardoor verkopen werden misgelopen. Daarnaast is het lastig om omzet, winst, verkoopprestaties en de voortgang ten opzichte van de forecasts overzichtelijk aan potentiële investeerders te presenteren.
 
-Daarnaast heeft de organisatie behoefte aan KPI's die worden berekend op basis van bestaande bedrijfsgegevens. Deze berekeningen zijn niet direct beschikbaar in Exact Online en worden daarom pas uitgevoerd op het moment dat de informatie nodig is, vaak met behulp van Excel. Dit kost extra tijd: de Managing Director besteedde ongeveer zes uur per week aan het handmatig bijhouden en verwerken van gegevens in Excel. Handmatige berekeningen brengen bovendien het risico op menselijke fouten met zich mee.
-
-Ook voor inkoop en logistiek is overzichtelijke bedrijfsinformatie belangrijk. Een voorraadanalyse kost de Customer Support Manager ongeveer twee uur, omdat gegevens uit verschillende overzichten moeten worden gecombineerd. Hierdoor is het af en toe voorgekomen dat sloten niet op tijd geleverd konden worden doordat ze niet op voorraad waren. Als gevolg daarvan moesten klanten en dealers langer wachten, lieten zij soms een negatieve review achter en moest de verkoop in sommige gevallen tijdelijk worden stilgelegd, waardoor verkopen werden misgelopen.
-
-Verder is het lastig om bedrijfsresultaten duidelijk en professioneel aan potentiële investeerders te presenteren. TMD Locks wil inzicht kunnen geven in omzet, winst, verkoopprestaties en de voortgang ten opzichte van de opgestelde forecasts.
-
-Het centrale probleem is dat belangrijke bedrijfsinformatie binnen TMD Locks niet direct overzichtelijk beschikbaar is en dat aanvullende KPI's afzonderlijk moeten worden berekend. Vooral het management, B2B Sales en Customer Support ondervinden hier last van. Het verzamelen, analyseren en presenteren van informatie kost daardoor wekelijks meerdere uren. Als er niets verandert, blijft deze tijd verloren gaan, blijft het risico op rekenfouten en voorraadtekorten bestaan en blijft het lastig om investeerders snel een betrouwbaar beeld van de bedrijfsprestaties te geven.
+Het centrale probleem is dat belangrijke bedrijfsinformatie niet direct overzichtelijk beschikbaar is en dat KPI's afzonderlijk moeten worden berekend. Vooral het management, B2B Sales en Customer Support hebben hier last van. Als er niets verandert, gaan er wekelijks meerdere uren verloren, blijft het risico op fouten en voorraadtekorten bestaan en blijft het lastig om investeerders een betrouwbaar beeld te geven.
 
 ### 1.3 Doelstelling
 
-Het doel van dit onderzoek is om een onderbouwd voorstel te doen voor een Power BI-dashboard dat aansluit bij de informatiebehoeften van de verschillende afdelingen binnen TMD Locks. Hiervoor is onderzocht hoe medewerkers momenteel bedrijfsinformatie verzamelen, welke bedrijfsgegevens en Key Performance Indicators (KPI's) voor iedere afdeling het belangrijkst zijn, welke eisen zij stellen aan de presentatie van deze informatie en of de benodigde gegevens beschikbaar zijn in Power BI.
+Het doel van dit onderzoek is om een onderbouwd voorstel te doen voor een Power BI-dashboard dat aansluit bij de informatiebehoeften van de verschillende afdelingen binnen TMD Locks. Hiervoor is onderzocht hoe medewerkers nu bedrijfsinformatie verzamelen en welke knelpunten zij ervaren, welke bedrijfsinformatie en KPI's belangrijk zijn, welke eisen medewerkers stellen aan de presentatie en of de benodigde gegevens beschikbaar zijn in Power BI.
 
-Dit onderzoek maakt deel uit van een bredere stageopdracht. Het doel van de stageopdracht is het ontwikkelen van het Power BI-dashboard zelf. Dit onderzoeksrapport vormt daarvoor de basis: op basis van het voorstel beslist de opdrachtgever welke KPI's en functionaliteiten worden opgenomen, waarna het dashboard wordt gebouwd. Het uitgangspunt daarbij is dat medewerkers in één oogopslag de belangrijkste informatie kunnen vinden, zonder door uitgebreide tabellen te hoeven zoeken of verschillende filters te moeten toepassen.
+Het doel van de stageopdracht is het ontwikkelen van het Power BI-dashboard zelf; dit onderzoek vormt daarvoor de basis. Op basis van het voorstel bepaalt de opdrachtgever welke KPI's en functionaliteiten worden opgenomen. Het uitgangspunt is dat medewerkers de belangrijkste informatie in één oogopslag kunnen vinden.
 
-De betrouwbaarheid van de cijfers valt buiten de scope van dit onderzoek. Of de KPI's in Power BI correct worden berekend en overeenkomen met de gegevens uit Exact Online, wordt gecontroleerd tijdens de bouwfase van het dashboard.
+De betrouwbaarheid van de cijfers (of de KPI's in Power BI overeenkomen met Exact Online) valt buiten de scope van dit onderzoek en wordt tijdens de bouw van het dashboard gecontroleerd.
 
-Om de informatiebehoeften goed in kaart te brengen, is inzicht nodig in de afdelingen en belanghebbenden die het dashboard gaan gebruiken of de resultaten ervan ontvangen. Het volgende hoofdstuk beschrijft deze betrokken partijen en hun rol in het onderzoek.
+Het volgende hoofdstuk beschrijft de afdelingen en belanghebbenden die het dashboard gebruiken of de resultaten ervan ontvangen.
 
 ## 2. Betrokken partijen
 
@@ -504,7 +498,7 @@ Daarnaast hebben de verschillende afdelingen specifieke informatiebehoeften. Voo
 
 Uit de interviews blijkt daarnaast dat medewerkers behoefte hebben aan een duidelijke en gestructureerde weergave van bedrijfsinformatie. Daarom wordt voorgesteld om de belangrijkste KPI's per afdeling direct zichtbaar te maken op de bijbehorende dashboardpagina's. Aanvullende informatie kan op onderliggende pagina's worden weergegeven. In de interviewverslagen zijn geen specifieke voorkeuren voor grafiektypen of visualisaties vastgelegd.
 
-Geconcludeerd kan worden dat het voorstel voor het Power BI-dashboard zowel gezamenlijke als afdelingsspecifieke bedrijfsgegevens en KPI's moet bevatten. Door de informatiebehoeften en prioriteiten van medewerkers als uitgangspunt te nemen, kan de presentatie worden afgestemd op hun werkzaamheden. De opdrachtgever beslist op basis van dit onderzoeksrapport welke voorgestelde KPI's en functionaliteiten worden opgenomen en welke prioriteit krijgen.
+Geconcludeerd kan worden dat het voorstel voor het Power BI-dashboard zowel gezamenlijke als afdelingsspecifieke bedrijfsgegevens en KPI's moet bevatten. Door de informatiebehoeften en prioriteiten van medewerkers als uitgangspunt te nemen, kan de presentatie worden afgestemd op hun werkzaamheden.
 
 
 ## 8. Aanbevelingen
