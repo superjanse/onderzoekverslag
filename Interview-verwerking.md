@@ -3,7 +3,7 @@
 Functie: Managing Director
 Organisatie: TMD Locks
 Onderwerp: Informatiebehoefte voor het Power BI-dashboard
-Datum interview: 12 november 2026
+Datum interview: 10 november 2026
 Correcties besproken: 13 november 2026
 
 1. Welke bedrijfsinformatie uit Exact Online gebruikte u het meest voor uw werkzaamheden?

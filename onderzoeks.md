@@ -4,7 +4,7 @@
 |---|---|
 | auteur | Hugo Janse |
 | Datum | 15-11-2026 |
-| Versie | 1 |
+| Versie | 1.3 |
 | classificatie | Intern |
 | client | Leonard Heuker of hoek |
 | Bedrijf | TMD Locks |
@@ -577,6 +577,12 @@ Performance Marketing: A Beginner’s Guide (2026) - Shopify. (2026, 5 november)
 
 Over doel-ROAS-biedingen - Google Ads help. (z.d.). Geraadpleegd op 15 november 2026, van https://support.google.com/google-ads/answer/6268637?hl=nl 
 
+## 10. AI-verantwoording
+
+Ik heb ernstige dyslexie. Daarom heb ik bij het schrijven van dit rapport AI (ChatGPT en Claude) gebruikt als hulpmiddel, binnen de richtlijn AI van de HvA. Ik heb AI vooral gebruikt om mijn teksten te controleren op spelling, grammatica en zinsopbouw, en om feedback te krijgen op mijn rapport. Het onderzoek, de interviews, de analyse, de conclusies en de aanbevelingen zijn van mijzelf.
+
+Alle voorgestelde aanpassingen heb ik zelf beoordeeld. Daarna heb ik de hele tekst nagelezen om te controleren of deze nog mijn eigen visie en bevindingen weergeeft.
+
 ## Bijlage A: Begrippenlijst
 
 In deze bijlage worden de belangrijkste begrippen uit het onderzoeksrapport toegelicht. De begrippen hebben betrekking op bedrijfsinformatie, data-analyse en het Power BI-dashboard. De onderstaande tabel geeft per begrip de betekenis en de bijbehorende bron.
@@ -617,3 +623,4 @@ In deze bijlage worden de belangrijkste begrippen uit het onderzoeksrapport toeg
 |0.26|15-11-2026| - aanbeveling|
 |1|15-11-2026| - eerste versie|
 |1.2|23-11-2026| - verbeteren|
+|1.3|23-11-2026| - verbeteren|
