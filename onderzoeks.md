@@ -4,10 +4,10 @@
 |---|---|
 | auteur | Hugo Janse |
 | Datum | 15-11-2026 |
-| Versie | 1.4 |
+| Versie | 1.5|1.4|26-11-2026| - verbeteren||
 | classificatie | Intern |
 | client | Leonard Heuker of hoek |
-| Bedrijf | TMD Locks |
+| Bedrijf | TMD Locks ||1.4|26-11-2026| - verbeteren|
 
 ## Voorwoord
 Voor u ligt mijn stageonderzoeksrapport, geschreven in het kader van mijn HBO-ICT-opleiding aan de Hogeschool van Amsterdam. Mijn naam is Hugo Janse en sinds 1 september 2026 loop ik stage bij TMD Locks, een onderdeel van TMD Security.
@@ -553,16 +553,16 @@ In deze bijlage worden de belangrijkste begrippen uit het onderzoeksrapport toeg
 | **Power BI** | Een programma van Microsoft waarmee gegevens worden geanalyseerd en weergegeven in interactieve dashboards en rapportages. |(Microsoft, 2023)|
 | **Exact Online** | Een online bedrijfssoftwarepakket waarin onder andere verkoop-, financiële en voorraadgegevens worden bijgehouden. |(Exact, 2026)|
 | **Dashboard** | Een visueel overzicht van belangrijke bedrijfsinformatie en KPI's. |(Microsoft, 2023)|
-| **KPI** | Key Performance Indicator: een meetbare indicator waarmee de prestaties van een organisatie worden beoordeeld. |	(IBM, 2026)|
+| **KPI** | Key Performance Indicator: een meetbare indicator waarmee de prestaties van een organisatie worden beoordeeld. |(IBM, 2026)|
 | **Datakwaliteit** | De mate waarin gegevens juist, volledig, actueel en betrouwbaar zijn. |(Jonker, 2026)|
-| **Datavisualisatie** | Het weergeven van gegevens met grafieken, tabellen en diagrammen om informatie begrijpelijk te maken. |	(IBM, 2025)|
+| **Datavisualisatie** | Het weergeven van gegevens met grafieken, tabellen en diagrammen om informatie begrijpelijk te maken. |(IBM, 2025)|
 | **Connector** | Een technische koppeling waarmee gegevens vanuit Exact Online naar Power BI worden overgebracht. |(Microsoft, 2026)|
-| **B2B (Business-to-Business)** | Verkoop van producten of diensten aan andere bedrijven, zoals dealers en winkels. |	(Schot, 2026)|
-| **B2C (Business-to-Consumer)** | Verkoop van producten of diensten aan consumenten, bijvoorbeeld via webshops. |	(Schot, 2026)|
+| **B2B (Business-to-Business)** | Verkoop van producten of diensten aan andere bedrijven, zoals dealers en winkels. |(Schot, 2026)|
+| **B2C (Business-to-Consumer)** | Verkoop van producten of diensten aan consumenten, bijvoorbeeld via webshops. |(Schot, 2026)|
 | **Doorverkoop** | Verkoop van een slot door een dealer aan een eindklant. Dit is iets anders dan de verkoop van TMD Locks aan de dealer. |(Interview accountmanager B2B Sales, 2026)|
 | **Activatie (serienummer)** | Het registreren van het serienummer van een slot door de eindklant via de app. Hiermee wordt vastgesteld dat een slot aan een eindklant is doorverkocht. |(Interview accountmanager B2B Sales, 2026)|
 | **Forecast** | Een prognose van toekomstige bedrijfsresultaten, bijvoorbeeld de verwachte omzet of verkoopcijfers. |(De Snoo, 2026)|
-| **ROAS (Return on Ad Spend)** | De B2C-omzet gedeeld door de advertentiekosten. Deze verhouding laat zien hoeveel omzet iedere bestede advertentie-euro oplevert. Platforms als Google Ads rekenen met omzet die aan advertenties is toegeschreven, waardoor de cijfers kunnen afwijken. | 	(Google, z.d.)|
+| **ROAS (Return on Ad Spend)** | De B2C-omzet gedeeld door de advertentiekosten. Deze verhouding laat zien hoeveel omzet iedere bestede advertentie-euro oplevert. Platforms als Google Ads rekenen met omzet die aan advertenties is toegeschreven, waardoor de cijfers kunnen afwijken. |(Google, z.d.)|
 | **Performance marketing** | Een vorm van online marketing die gericht is op meetbare resultaten, zoals klikken, aanvragen of verkopen. Campagnes worden beoordeeld en bijgestuurd op basis van deze resultaten. |(Shopify, 2026)|
 
 ## Bijlage B: Betrokken partijen 
@@ -671,3 +671,4 @@ Deze bijlage hoort bij paragraaf 6.6. De tabel laat per KPI of functionaliteit z
 |1.2|23-11-2026| - verbeteren|
 |1.3|25-11-2026| - verbeteren|
 |1.4|26-11-2026| - verbeteren|
+|1.5|26-11-2026| - verbeteren|
